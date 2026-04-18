@@ -61,7 +61,7 @@
     &#8593;
   </button>
 
-  {{- /* Inline JS for back-to-top and mobile menu */ -}}
+  {{- /* Inline JS for back-to-top, mobile menu & accordion */ -}}
   <script>
     (function() {
       // Back to top
@@ -81,15 +81,30 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
 
-      // Mobile menu toggle
+      // Mobile menu toggle (hamburger)
       var menuToggle = document.getElementById('mobile-menu-toggle');
-      var navMenu = document.getElementById('nav-menu');
-      if (menuToggle && navMenu) {
+      var mobileMenu = document.getElementById('mobile-menu');
+      if (menuToggle && mobileMenu) {
         menuToggle.addEventListener('click', function() {
-          navMenu.classList.toggle('active');
+          var isOpen = mobileMenu.classList.toggle('open');
           menuToggle.classList.toggle('active');
+          mobileMenu.style.display = isOpen ? 'block' : 'none';
+          menuToggle.setAttribute('aria-expanded', isOpen);
         });
       }
+
+      // Mobile accordion (click to expand/collapse sub-menus)
+      document.querySelectorAll('[data-accordion]').forEach(function(toggle) {
+        toggle.addEventListener('click', function(e) {
+          e.preventDefault();
+          var content = this.nextElementSibling;
+          if (!content) return;
+          var isOpen = this.classList.toggle('open');
+          if (content.classList.contains('mobile-accordion-content')) {
+            content.classList.toggle('open', isOpen);
+          }
+        });
+      });
     })();
   </script>
 

@@ -1,6 +1,7 @@
 {{- /* Determine company name based on language */ -}}
 {{- $companyName := cond (eq .Lang "zh") (.Site.Params.companyZh | default "深圳市和兴防护科技有限公司") (.Site.Params.companyEn | default "Shenzhen HeXing Protection Tech. Co., Ltd.") -}}
 {{- $logo := .Site.Params.logo -}}
+{{- $isZh := eq .Lang "zh" -}}
 
 <header id="site-header" style="position:sticky;top:0;z-index:1000;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.08);transition:box-shadow 0.3s;">
   <div class="container header-container">
@@ -13,7 +14,7 @@
       {{- end -}}
       <div>
         <div style="font-size:18px;font-weight:700;line-height:1.2;color:var(--primary);">{{ $companyName }}</div>
-        {{- if eq .Lang "zh" -}}
+        {{- if $isZh -}}
           <div style="font-size:11px;color:var(--text-muted);letter-spacing:1px;">HeXing Protection Technology</div>
         {{- else -}}
           <div style="font-size:11px;color:var(--text-muted);letter-spacing:1px;">Military & Tactical Equipment Exporter</div>
@@ -21,19 +22,48 @@
       </div>
     </a>
 
-    {{- /* Desktop Navigation */ -}}
+    {{- /* Desktop Navigation with Dropdown */ -}}
     <nav id="nav-menu" class="nav-desktop">
       {{- range .Site.Menus.main -}}
-        <a href="{{ .URL }}" class="nav-link"
-           {{ if .Params.target }}target="{{ .Params.target }}"{{ end }}>
-          {{- .Pre -}}{{- .Name -}}{{- .Post -}}
-        </a>
+        {{- if .HasChildren -}}
+          {{- /* Top-level item with children → dropdown */ -}}
+          <div class="nav-item has-children">
+            <a href="{{ .URL }}" class="nav-link nav-dropdown-toggle">
+              {{ .Name }} <span class="nav-caret">▾</span>
+            </a>
+            <div class="nav-dropdown">
+              {{- range .Children -}}
+                {{- if .HasChildren -}}
+                  {{- /* Category with sub-items → flyout submenu */ -}}
+                  <div class="nav-dropdown-item has-submenu">
+                    <a href="{{ .URL }}" class="nav-dropdown-link">
+                      {{ .Name }} <span class="nav-submenu-caret">›</span>
+                    </a>
+                    <div class="nav-dropdown-sub">
+                      {{- range .Children -}}
+                        <a href="{{ .URL }}" class="nav-dropdown-link">{{ .Name }}</a>
+                      {{- end -}}
+                    </div>
+                  </div>
+                {{- else -}}
+                  {{- /* Category without sub-items */ -}}
+                  <div class="nav-dropdown-item">
+                    <a href="{{ .URL }}" class="nav-dropdown-link">{{ .Name }}</a>
+                  </div>
+                {{- end -}}
+              {{- end -}}
+            </div>
+          </div>
+        {{- else -}}
+          {{- /* Simple top-level link (no children) */ -}}
+          <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+        {{- end -}}
       {{- end -}}
 
       {{- /* Language Switch */ -}}
-      {{- if .IsTranslated -}}
+      {{- if $.IsTranslated -}}
         <div class="nav-lang-divider">
-          {{- range .Translations -}}
+          {{- range $.Translations -}}
             <a href="{{ .RelPermalink }}" class="lang-switch"
                title="{{ if eq .Lang `zh` }}中文{{ else }}English{{ end }}">
               🌐 {{ if eq .Lang "zh" }}EN{{ else }}中文{{ end }}
@@ -49,5 +79,45 @@
       <span></span>
       <span></span>
     </button>
+  </div>
+
+  {{- /* Mobile Menu */ -}}
+  <div id="mobile-menu" class="mobile-menu" style="display:none;">
+    {{- range .Site.Menus.main -}}
+      {{- if .HasChildren -}}
+        <div class="mobile-accordion">
+          <button class="mobile-accordion-toggle" data-accordion>
+            {{ .Name }} <span class="mobile-caret">▾</span>
+          </button>
+          <div class="mobile-accordion-content">
+            {{- range .Children -}}
+              {{- if .HasChildren -}}
+                <div class="mobile-accordion-sub">
+                  <button class="mobile-accordion-toggle mobile-sub-toggle" data-accordion>
+                    {{ .Name }} <span class="mobile-caret">▾</span>
+                  </button>
+                  <div class="mobile-accordion-content">
+                    {{- range .Children -}}
+                      <a href="{{ .URL }}" class="mobile-link mobile-sub2">{{ .Name }}</a>
+                    {{- end -}}
+                  </div>
+                </div>
+              {{- else -}}
+                <a href="{{ .URL }}" class="mobile-link mobile-sub">{{ .Name }}</a>
+              {{- end -}}
+            {{- end -}}
+          </div>
+        </div>
+      {{- else -}}
+        <a href="{{ .URL }}" class="mobile-link">{{ .Name }}</a>
+      {{- end -}}
+    {{- end -}}
+    {{- if $.IsTranslated -}}
+      <div class="mobile-lang-divider">
+        {{- range $.Translations -}}
+          <a href="{{ .RelPermalink }}" class="mobile-link" style="color:var(--accent);">🌐 {{ if eq .Lang "zh" }}English{{ else }}中文{{ end }}</a>
+        {{- end -}}
+      </div>
+    {{- end -}}
   </div>
 </header>
