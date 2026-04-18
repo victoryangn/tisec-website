@@ -26,59 +26,155 @@
       <div style="margin-bottom:40px;line-height:1.8;font-size:16px;color:var(--text-dark);">{{ . }}</div>
     {{- end -}}
 
-    {{- /* Check if this is the top-level products page (has subsections) */ -}}
     {{- $sections := .Sections -}}
 
     {{- if $sections -}}
-      {{- /* ===== TOP-LEVEL: Show category cards + all products ===== */ -}}
-      
-      {{- /* Category Navigation Cards */ -}}
-      <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));gap:20px;margin-bottom:50px;">
-        {{- range $sections -}}
-          {{- $secImg := "" -}}
-          {{- with .Pages -}}
-            {{- with (index . 0).Params.images -}}
-              {{- $secImg = index . 0 -}}
-            {{- end -}}
-          {{- end -}}
-          <a href="{{ .RelPermalink }}" style="text-decoration:none;color:inherit;display:block;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1px solid #eee;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 25px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';">
-            {{- if $secImg -}}
-              <div style="height:140px;overflow:hidden;background:var(--bg-light);">
-                <img src="{{ $secImg | relURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;">
-              </div>
-            {{- else -}}
-              <div style="height:140px;background:linear-gradient(135deg,var(--primary),var(--olive));display:flex;align-items:center;justify-content:center;">
-                <span style="font-size:48px;opacity:0.4;">📦</span>
-              </div>
-            {{- end -}}
-            <div style="padding:16px 20px;">
-              <h3 style="font-size:18px;font-weight:700;color:var(--primary);margin:0 0 4px;">{{ .Title }}</h3>
-              <span style="font-size:13px;color:var(--text-muted);">{{ len .Pages }} {{ if $isZh }}个产品{{ else }}products{{ end }}</span>
-            </div>
-          </a>
-        {{- end -}}
-      </div>
+      {{- /* ===== Define category groups ===== */ -}}
+      {{- $ballisticSections := slice -}}
+      {{- $uniformSections := slice -}}
+      {{- $otherSections := slice -}}
 
-      {{- /* All Products Grid (from all subsections) */ -}}
+      {{- $ballisticNames := slice "防弹头盔" "防弹插板" "防弹盾牌" "防弹衣/防刺服" "Bulletproof Helmets" "Bulletproof Plates" "Bulletproof Shields" "Bulletproof Vests" -}}
+      {{- $uniformNames := slice "军用服装" "Military Uniform" -}}
+
+      {{- range $sections -}}
+        {{- if in $ballisticNames .Title -}}
+          {{- $ballisticSections = $ballisticSections | append . -}}
+        {{- else if in $uniformNames .Title -}}
+          {{- $uniformSections = $uniformSections | append . -}}
+        {{- else -}}
+          {{- $otherSections = $otherSections | append . -}}
+        {{- end -}}
+      {{- end -}}
+
+      {{- /* ===== Category Group: Ballistic Protection ===== */ -}}
+      {{- if $ballisticSections -}}
+        <div style="margin-bottom:50px;">
+          <h2 style="font-size:26px;font-weight:800;color:var(--primary);margin:0 0 8px;">
+            {{ if $isZh }}🛡️ 防弹装备{{ else }}🛡️ Ballistic Protection{{ end }}
+          </h2>
+          <p style="font-size:14px;color:var(--text-muted);margin:0 0 24px;">
+            {{ if $isZh }}专业防弹头盔、防弹插板、防弹盾牌、防弹衣等弹道防护装备{{ else }}Professional ballistic helmets, plates, shields, body armor and more{{ end }}
+          </p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));gap:20px;">
+            {{- range $ballisticSections -}}
+              {{- $secImg := "" -}}
+              {{- with .Pages -}}
+                {{- with (index . 0).Params.images -}}
+                  {{- $secImg = index . 0 -}}
+                {{- end -}}
+              {{- end -}}
+              <a href="{{ .RelPermalink }}" style="text-decoration:none;color:inherit;display:block;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1px solid #eee;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 25px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';">
+                {{- if $secImg -}}
+                  <div style="height:140px;overflow:hidden;background:var(--bg-light);">
+                    <img src="{{ $secImg | relURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;">
+                  </div>
+                {{- else -}}
+                  <div style="height:140px;background:linear-gradient(135deg,var(--primary),var(--olive));display:flex;align-items:center;justify-content:center;">
+                    <span style="font-size:48px;opacity:0.4;">📦</span>
+                  </div>
+                {{- end -}}
+                <div style="padding:16px 20px;">
+                  <h3 style="font-size:18px;font-weight:700;color:var(--primary);margin:0 0 4px;">{{ .Title }}</h3>
+                  <span style="font-size:13px;color:var(--text-muted);">{{ len .Pages }} {{ if $isZh }}个产品{{ else }}products{{ end }}</span>
+                </div>
+              </a>
+            {{- end -}}
+          </div>
+        </div>
+      {{- end -}}
+
+      {{- /* ===== Category Group: Military Uniform ===== */ -}}
+      {{- if $uniformSections -}}
+        <div style="margin-bottom:50px;">
+          <h2 style="font-size:26px;font-weight:800;color:var(--primary);margin:0 0 8px;">
+            {{ if $isZh }}🎖️ 军用服装{{ else }}🎖️ Military Uniform{{ end }}
+          </h2>
+          <p style="font-size:14px;color:var(--text-muted);margin:0 0 24px;">
+            {{ if $isZh }}作战服、训练服、礼服等专业军用服装{{ else }}Combat uniforms, training uniforms, dress uniforms and more{{ end }}
+          </p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));gap:20px;">
+            {{- range $uniformSections -}}
+              {{- $secImg := "" -}}
+              {{- with .Pages -}}
+                {{- with (index . 0).Params.images -}}
+                  {{- $secImg = index . 0 -}}
+                {{- end -}}
+              {{- end -}}
+              <a href="{{ .RelPermalink }}" style="text-decoration:none;color:inherit;display:block;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1px solid #eee;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 25px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';">
+                {{- if $secImg -}}
+                  <div style="height:140px;overflow:hidden;background:var(--bg-light);">
+                    <img src="{{ $secImg | relURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;">
+                  </div>
+                {{- else -}}
+                  <div style="height:140px;background:linear-gradient(135deg,var(--primary),var(--olive));display:flex;align-items:center;justify-content:center;">
+                    <span style="font-size:48px;opacity:0.4;">📦</span>
+                  </div>
+                {{- end -}}
+                <div style="padding:16px 20px;">
+                  <h3 style="font-size:18px;font-weight:700;color:var(--primary);margin:0 0 4px;">{{ .Title }}</h3>
+                  <span style="font-size:13px;color:var(--text-muted);">{{ len .Pages }} {{ if $isZh }}个产品{{ else }}products{{ end }}</span>
+                </div>
+              </a>
+            {{- end -}}
+          </div>
+        </div>
+      {{- end -}}
+
+      {{- /* ===== Other categories (future expansion) ===== */ -}}
+      {{- if $otherSections -}}
+        <div style="margin-bottom:50px;">
+          <h2 style="font-size:26px;font-weight:800;color:var(--primary);margin:0 0 24px;">
+            {{ if $isZh }}更多产品{{ else }}More Products{{ end }}
+          </h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));gap:20px;">
+            {{- range $otherSections -}}
+              {{- $secImg := "" -}}
+              {{- with .Pages -}}
+                {{- with (index . 0).Params.images -}}
+                  {{- $secImg = index . 0 -}}
+                {{- end -}}
+              {{- end -}}
+              <a href="{{ .RelPermalink }}" style="text-decoration:none;color:inherit;display:block;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1px solid #eee;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 25px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';">
+                {{- if $secImg -}}
+                  <div style="height:140px;overflow:hidden;background:var(--bg-light);">
+                    <img src="{{ $secImg | relURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;">
+                  </div>
+                {{- else -}}
+                  <div style="height:140px;background:linear-gradient(135deg,var(--primary),var(--olive));display:flex;align-items:center;justify-content:center;">
+                    <span style="font-size:48px;opacity:0.4;">📦</span>
+                  </div>
+                {{- end -}}
+                <div style="padding:16px 20px;">
+                  <h3 style="font-size:18px;font-weight:700;color:var(--primary);margin:0 0 4px;">{{ .Title }}</h3>
+                  <span style="font-size:13px;color:var(--text-muted);">{{ len .Pages }} {{ if $isZh }}个产品{{ else }}products{{ end }}</span>
+                </div>
+              </a>
+            {{- end -}}
+          </div>
+        </div>
+      {{- end -}}
+
+      {{- /* All Products Grid */ -}}
       {{- $allPages := where .Site.RegularPages "Section" "products" -}}
       {{- $allProducts := where $allPages "Kind" "page" -}}
       {{- $allProducts = where $allProducts "Lang" .Lang -}}
 
-      <h2 style="font-size:24px;font-weight:800;color:var(--primary);margin:0 0 24px;padding-bottom:12px;border-bottom:3px solid var(--accent);">
-        {{ if $isZh }}全部产品{{ else }}All Products{{ end }}
-        <span style="font-size:14px;font-weight:400;color:var(--text-muted);margin-left:8px;">({{ len $allProducts }})</span>
-      </h2>
-
-      <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:24px;">
-        {{- range $allProducts -}}
-          {{- partial "product-card.html" (dict "page" . "isZh" $isZh) -}}
-        {{- end -}}
-      </div>
+      {{- if $allProducts -}}
+        <h2 style="font-size:24px;font-weight:800;color:var(--primary);margin:0 0 24px;padding-bottom:12px;border-bottom:3px solid var(--accent);">
+          {{ if $isZh }}全部产品{{ else }}All Products{{ end }}
+          <span style="font-size:14px;font-weight:400;color:var(--text-muted);margin-left:8px;">({{ len $allProducts }})</span>
+        </h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:24px;">
+          {{- range $allProducts -}}
+            {{- partial "product-card.html" (dict "page" . "isZh" $isZh) -}}
+          {{- end -}}
+        </div>
+      {{- end -}}
 
     {{- else -}}
       {{- /* ===== SUBSECTION: Show products in this category ===== */ -}}
       
-      {{- /* Category filter tabs */ -}}
       {{- $currentTitle := .Title -}}
       {{- with .Parent -}}
         {{- if .Sections -}}
