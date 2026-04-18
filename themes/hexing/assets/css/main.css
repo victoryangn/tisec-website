@@ -242,8 +242,9 @@ a:hover { color: var(--accent); }
 }
 .nav-dropdown-sub .nav-dropdown-link {
   padding: 9px 18px;
-  font-size: 0.85rem;
-  font-weight: 400;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text);
 }
 
 /* ===== Dropdown Navigation ===== */
@@ -361,8 +362,8 @@ a:hover { color: var(--accent); }
 }
 .mobile-link.mobile-sub2 {
   padding-left: 56px;
-  font-weight: 400;
-  color: var(--text-light);
+  font-weight: 500;
+  color: var(--text);
   font-size: 0.88rem;
 }
 .mobile-accordion-toggle {
@@ -465,9 +466,9 @@ a:hover { color: var(--accent); }
 }
 .mobile-link.mobile-sub2 {
   padding-left: 56px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.9rem;
-  color: var(--text-light);
+  color: var(--text);
   border-bottom: 1px solid #f5f5f5;
 }
 .mobile-link.mobile-sub2:hover {
