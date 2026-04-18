@@ -107,7 +107,17 @@
         {{- end -}}
         {{- with .Content -}}
           <div class="product-content" style="font-size:15px;line-height:1.8;color:var(--text-dark);margin-bottom:24px;">{{ . }}</div>
-          <style>.product-content h1,.product-content h2[id="产品规格"],.product-content h2[id="产品规格"]+p,.product-content h2[id="specifications"],.product-content h2[id="specifications"]+p,.product-content h2[id="contact-us"],.product-content h2[id="contact-us"]+ul,.product-content h2[id="联系我们"],.product-content h2[id="联系我们"]+ul{display:none}</style>
+          <style>
+          .product-content > h1:first-child { display:none; }
+          .product-content > h2#specifications,
+          .product-content > h2#specifications + p,
+          .product-content > h2#contact-us,
+          .product-content > h2#contact-us + ul,
+          .product-content > h2#产品规格,
+          .product-content > h2#产品规格 + p,
+          .product-content > h2#联系我们,
+          .product-content > h2#联系我们 + ul { display:none; }
+          </style>
         {{- end -}}
 
         {{- /* =========================================
