@@ -10,7 +10,7 @@ images:
   - "/images/products/ccgk/PASGT-M88钢制防弹头盔-3.jpg"
   - "/images/products/ccgk/PASGT-M88钢制防弹头盔-1.jpg"
 specs: |
-  尺寸：LOne Size头围尺寸：540-600mm颜色：Tactical Black，Army Green，Sand，Camouflage，Customizable防弹材质：Ballistic Steel防弹面积㎡：0.13㎡厚度mm：2.1-2.40mm防弹等级：GA2，GA3执行标准：GA 293-2012 Police Ballistic Helmet & Face Shield Standard配件：Shock absorption, head circumference adjustment, buffer system, etc.保险：Ping An Insurance 5M RMB保质期：8 years
+  Size:LOne SizeHead Circumference:540-600mmColor:Tactical Black，Army Green，Sand，Camouflage, CustomizableBallistic Material:Ballistic SteelBallistic Area (㎡):0.13㎡Thickness (mm):2.1-2.40mmBallistic Level:GA2，GA3Standard:GA 293-2012 Police Ballistic Helmet & Face Shield StandardAccessories:Shock absorption, head circumference adjustment, buffer system, etc.Insurance:Ping An Insurance 5M RMBShelf Life:8 years
 
 ---
 
@@ -20,7 +20,7 @@ PASGT-M88 Steel Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co
 
 ## Specifications
 
-尺寸：LOne Size头围尺寸：540-600mm颜色：Tactical Black，Army Green，Sand，Camouflage，Customizable防弹材质：Ballistic Steel防弹面积㎡：0.13㎡厚度mm：2.1-2.40mm防弹等级：GA2，GA3执行标准：GA 293-2012 Police Ballistic Helmet & Face Shield Standard配件：Shock absorption, head circumference adjustment, buffer system, etc.保险：Ping An Insurance 5M RMB保质期：8 years
+Size:LOne SizeHead Circumference:540-600mmColor:Tactical Black，Army Green，Sand，Camouflage, CustomizableBallistic Material:Ballistic SteelBallistic Area (㎡):0.13㎡Thickness (mm):2.1-2.40mmBallistic Level:GA2，GA3Standard:GA 293-2012 Police Ballistic Helmet & Face Shield StandardAccessories:Shock absorption, head circumference adjustment, buffer system, etc.Insurance:Ping An Insurance 5M RMBShelf Life:8 years
 
 ## Contact Us
 

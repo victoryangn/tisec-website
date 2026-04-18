@@ -24,7 +24,7 @@ FAST SF Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co., Ltd. 
 
 ## Specifications
 
-Contact for details我们
+Contact for details
 
 ## Contact Us
 
