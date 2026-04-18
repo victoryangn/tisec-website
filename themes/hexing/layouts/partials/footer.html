@@ -73,14 +73,7 @@
             {{ . }}
           </a>
         {{- end -}}
-        {{- with .Site.Params.contactPerson -}}
-          <div style="color:rgba(255,255,255,0.8);font-size:14px;display:flex;align-items:center;gap:10px;">
-            <span style="width:32px;height:32px;background:rgba(255,255,255,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-            </span>
-            {{ . }}
-          </div>
-        {{- end -}}
+
         {{- with .Site.Params.whatsapp -}}
           <a href="https://wa.me/{{ . }}" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.8);text-decoration:none;font-size:14px;display:flex;align-items:center;gap:10px;">
             <span style="width:32px;height:32px;background:rgba(37,211,102,0.3);border-radius:50%;display:flex;align-items:center;justify-content:center;">
