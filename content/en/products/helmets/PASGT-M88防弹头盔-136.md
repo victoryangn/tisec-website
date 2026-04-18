@@ -11,7 +11,17 @@ images:
   - "/images/products/ccgk/PASGT-M88防弹头盔-2.jpg"
   - "/images/products/ccgk/PASGT-M88防弹头盔-1.jpg"
 specs: |
-  Size:L One SizeHead Circumference:540-600mmColor:Tactical Black，Army Green，Sand，Camouflage, CustomizableBallistic Material:Aramid, PEBallistic Area (㎡):0.13㎡Thickness (mm):7.5-11mmBallistic Level:GA2，GA3Standard:GA 293-2012 Police Ballistic Helmet & Face Shield StandardAccessories:Shock absorption, head circumference adjustment, buffer system, etc.Insurance:Ping An Insurance 5M RMBShelf Life:8 years
+  Size: L One Size
+Head Circumference: 540-600mm
+Color: Tactical Black，Army Green，Sand，Camouflage, Customizable
+Ballistic Material: Aramid, PE
+Ballistic Area (㎡): 0.13㎡
+Thickness (mm): 7.5-11mm
+Ballistic Level: GA2，GA3
+Standard: GA 293-2012 Police Ballistic Helmet & Face Shield Standard
+Accessories: Shock absorption, head circumference adjustment, buffer system, etc.
+Insurance: Ping An Insurance 5M RMB
+Shelf Life: 8 years
 
 ---
 
@@ -21,7 +31,17 @@ PASGT-M88 Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co., Ltd
 
 ## Specifications
 
-Size:L One SizeHead Circumference:540-600mmColor:Tactical Black，Army Green，Sand，Camouflage, CustomizableBallistic Material:Aramid, PEBallistic Area (㎡):0.13㎡Thickness (mm):7.5-11mmBallistic Level:GA2，GA3Standard:GA 293-2012 Police Ballistic Helmet & Face Shield StandardAccessories:Shock absorption, head circumference adjustment, buffer system, etc.Insurance:Ping An Insurance 5M RMBShelf Life:8 years
+Size: L One Size
+Head Circumference: 540-600mm
+Color: Tactical Black，Army Green，Sand，Camouflage, Customizable
+Ballistic Material: Aramid, PE
+Ballistic Area (㎡): 0.13㎡
+Thickness (mm): 7.5-11mm
+Ballistic Level: GA2，GA3
+Standard: GA 293-2012 Police Ballistic Helmet & Face Shield Standard
+Accessories: Shock absorption, head circumference adjustment, buffer system, etc.
+Insurance: Ping An Insurance 5M RMB
+Shelf Life: 8 years
 
 ## Contact Us
 

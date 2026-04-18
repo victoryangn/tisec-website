@@ -12,7 +12,18 @@ images:
   - "/images/products/ccgk/FAST防弹头盔-2.jpg"
   - "/images/products/ccgk/FAST防弹头盔-1.jpg"
 specs: |
-  Size:L, XLHead Circumference:540-600mmColor:Tactical Black，Army Green，Sand，Camouflage, CustomizableBallistic Material:Aramid, PEWeight (KGS):1.50-1.60KGSBallistic Area (㎡):0.11㎡Thickness (mm):7.5-8mmBallistic Level:GA2，GA3Standard:GA 293-2012 Police Ballistic Helmet & Face Shield StandardAccessories:Shock absorption, head circumference adjustment, buffer system, etc.Insurance:Ping An Insurance 3M RMBShelf Life:8 years
+  Size: L, XL
+Head Circumference: 540-600mm
+Color: Tactical Black，Army Green，Sand，Camouflage, Customizable
+Ballistic Material: Aramid, PE
+Weight (KGS): 1.50-1.60KGS
+Ballistic Area (㎡): 0.11㎡
+Thickness (mm): 7.5-8mm
+Ballistic Level: GA2，GA3
+Standard: GA 293-2012 Police Ballistic Helmet & Face Shield Standard
+Accessories: Shock absorption, head circumference adjustment, buffer system, etc.
+Insurance: Ping An Insurance 3M RMB
+Shelf Life: 8 years
 
 ---
 
@@ -22,7 +33,18 @@ FAST Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Pro
 
 ## Specifications
 
-Size:L, XLHead Circumference:540-600mmColor:Tactical Black，Army Green，Sand，Camouflage, CustomizableBallistic Material:Aramid, PEWeight (KGS):1.50-1.60KGSBallistic Area (㎡):0.11㎡Thickness (mm):7.5-8mmBallistic Level:GA2，GA3Standard:GA 293-2012 Police Ballistic Helmet & Face Shield StandardAccessories:Shock absorption, head circumference adjustment, buffer system, etc.Insurance:Ping An Insurance 3M RMBShelf Life:8 years
+Size: L, XL
+Head Circumference: 540-600mm
+Color: Tactical Black，Army Green，Sand，Camouflage, Customizable
+Ballistic Material: Aramid, PE
+Weight (KGS): 1.50-1.60KGS
+Ballistic Area (㎡): 0.11㎡
+Thickness (mm): 7.5-8mm
+Ballistic Level: GA2，GA3
+Standard: GA 293-2012 Police Ballistic Helmet & Face Shield Standard
+Accessories: Shock absorption, head circumference adjustment, buffer system, etc.
+Insurance: Ping An Insurance 3M RMB
+Shelf Life: 8 years
 
 ## Contact Us
 

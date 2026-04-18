@@ -81,16 +81,15 @@
            RIGHT COLUMN: Product Info
            ========================================= */ -}}
       <div class="product-info">
-        {{- /* Product Title & Category */ -}}
+        {{- /* Product Category & Subtitle (title is already in the green header banner) */ -}}
         <div style="margin-bottom:24px;">
           {{- with .Params.category -}}
             <span style="display:inline-block;padding:4px 12px;background:rgba(85,139,47,0.1);color:var(--olive);font-size:13px;font-weight:600;border-radius:4px;margin-bottom:12px;">
               {{ . }}
             </span>
           {{- end -}}
-          <h2 style="font-size:28px;font-weight:800;color:var(--primary);margin:0;">{{ .Title }}</h2>
           {{- with .Params.subtitle -}}
-            <p style="color:var(--text-muted);font-size:15px;margin:6px 0 0;">{{ . }}</p>
+            <p style="color:var(--text-muted);font-size:15px;margin:0;">{{ . }}</p>
           {{- end -}}
         </div>
 
@@ -108,7 +107,7 @@
         {{- end -}}
         {{- with .Content -}}
           <div class="product-content" style="font-size:15px;line-height:1.8;color:var(--text-dark);margin-bottom:24px;">{{ . }}</div>
-          <style>.product-content h2[id="产品规格"],.product-content h2[id="产品规格"]+p,.product-content h2[id="specifications"],.product-content h2[id="specifications"]+p{display:none}</style>
+          <style>.product-content h1,.product-content h2[id="产品规格"],.product-content h2[id="产品规格"]+p,.product-content h2[id="specifications"],.product-content h2[id="specifications"]+p,.product-content h2[id="contact-us"],.product-content h2[id="contact-us"]+ul,.product-content h2[id="联系我们"],.product-content h2[id="联系我们"]+ul{display:none}</style>
         {{- end -}}
 
         {{- /* =========================================

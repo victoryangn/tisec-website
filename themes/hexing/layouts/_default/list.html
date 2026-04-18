@@ -66,7 +66,7 @@
               {{- end -}}
               <a href="{{ .RelPermalink }}" style="text-decoration:none;color:inherit;display:block;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1px solid #eee;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 25px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';">
                 {{- if $secImg -}}
-                  <div style="height:140px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;">
+                  <div style="height:140px;overflow:hidden;background:#f8faf5;display:flex;align-items:center;justify-content:center;">
                     <img src="{{ $secImg | relURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:contain;padding:8px;">
                   </div>
                 {{- else -}}
@@ -74,7 +74,7 @@
                     <span style="font-size:48px;opacity:0.4;">📦</span>
                   </div>
                 {{- end -}}
-                <div style="padding:16px 20px;">
+                <div style="padding:16px 20px;background:var(--bg-light);">
                   <h3 style="font-size:18px;font-weight:700;color:var(--primary);margin:0 0 4px;">{{ .Title }}</h3>
                   <span style="font-size:13px;color:var(--text-muted);">{{ len .Pages }} {{ if $isZh }}个产品{{ else }}products{{ end }}</span>
                 </div>
@@ -103,7 +103,7 @@
               {{- end -}}
               <a href="{{ .RelPermalink }}" style="text-decoration:none;color:inherit;display:block;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1px solid #eee;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 25px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';">
                 {{- if $secImg -}}
-                  <div style="height:140px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;">
+                  <div style="height:140px;overflow:hidden;background:#f8faf5;display:flex;align-items:center;justify-content:center;">
                     <img src="{{ $secImg | relURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:contain;padding:8px;">
                   </div>
                 {{- else -}}
@@ -111,7 +111,7 @@
                     <span style="font-size:48px;opacity:0.4;">📦</span>
                   </div>
                 {{- end -}}
-                <div style="padding:16px 20px;">
+                <div style="padding:16px 20px;background:var(--bg-light);">
                   <h3 style="font-size:18px;font-weight:700;color:var(--primary);margin:0 0 4px;">{{ .Title }}</h3>
                   <span style="font-size:13px;color:var(--text-muted);">{{ len .Pages }} {{ if $isZh }}个产品{{ else }}products{{ end }}</span>
                 </div>
@@ -137,7 +137,7 @@
               {{- end -}}
               <a href="{{ .RelPermalink }}" style="text-decoration:none;color:inherit;display:block;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);border:1px solid #eee;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 25px rgba(0,0,0,0.12)';" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';">
                 {{- if $secImg -}}
-                  <div style="height:140px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;">
+                  <div style="height:140px;overflow:hidden;background:#f8faf5;display:flex;align-items:center;justify-content:center;">
                     <img src="{{ $secImg | relURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:contain;padding:8px;">
                   </div>
                 {{- else -}}
@@ -145,7 +145,7 @@
                     <span style="font-size:48px;opacity:0.4;">📦</span>
                   </div>
                 {{- end -}}
-                <div style="padding:16px 20px;">
+                <div style="padding:16px 20px;background:var(--bg-light);">
                   <h3 style="font-size:18px;font-weight:700;color:var(--primary);margin:0 0 4px;">{{ .Title }}</h3>
                   <span style="font-size:13px;color:var(--text-muted);">{{ len .Pages }} {{ if $isZh }}个产品{{ else }}products{{ end }}</span>
                 </div>
