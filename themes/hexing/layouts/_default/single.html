@@ -203,7 +203,15 @@
   if (!el) return;
   var raw = el.getAttribute('data-specs') || '';
   // Decode JSON string and restore newlines
-  try { raw = JSON.parse(raw); } catch(e) { raw = raw.replace(/^"|"$/g, ''); }
+  try {
+    var parsed = JSON.parse(raw);
+    // Hugo may output as array (from YAML list) or string (from | block)
+    if (Array.isArray(parsed)) {
+      raw = parsed.join('\n');
+    } else {
+      raw = parsed;
+    }
+  } catch(e) { raw = raw.replace(/^"|"$/g, ''); }
   raw = raw.replace(/\\n/g, '\n').trim();
   if (!raw || raw === '详情请咨询' || raw === 'Contact for details') {
     el.innerHTML = '<div style="background:var(--bg-light);padding:20px;border-radius:8px;font-size:14px;color:var(--text-muted);">' + raw + '</div>';
