@@ -1,10 +1,8 @@
 ---
-title: "军用服装"
-description: "和兴防护军用服装系列 — 军服、作战服、训练服等专业军用服装"
-date: 2026-04-18
-draft: false
+title: "军警制服"
+description: "军警制服系列，包含战术裤、作战服、长袖衬衫等"
+slug: "uniforms"
+type: "products"
+layout: "list"
 ---
 
-## 军用服装
-
-和兴防护供应专业军用服装系列，涵盖作战服、训练服、礼服等多种类型，支持定制。

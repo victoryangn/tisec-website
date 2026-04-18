@@ -43,6 +43,72 @@ paginate = 12
         name = "产品中心"
         url = "/products/"
         weight = 2
+        hasChildren = true
+      [[languages.zh.menus.main]]
+        name = "防弹装备"
+        url = "/products/bulletproof/"
+        weight = 1
+        parent = "产品中心"
+      [[languages.zh.menus.main]]
+        name = "防弹衣"
+        url = "/products/vests/"
+        weight = 1
+        parent = "防弹装备"
+      [[languages.zh.menus.main]]
+        name = "防弹头盔"
+        url = "/products/helmets/"
+        weight = 2
+        parent = "防弹装备"
+      [[languages.zh.menus.main]]
+        name = "防弹插板"
+        url = "/products/plates/"
+        weight = 3
+        parent = "防弹装备"
+      [[languages.zh.menus.main]]
+        name = "防弹盾牌"
+        url = "/products/shields/"
+        weight = 4
+        parent = "防弹装备"
+      [[languages.zh.menus.main]]
+        name = "军警制服"
+        url = "/products/uniforms/"
+        weight = 2
+        parent = "产品中心"
+      [[languages.zh.menus.main]]
+        name = "战术服装"
+        url = "/products/tactical-clothing/"
+        weight = 3
+        parent = "产品中心"
+      [[languages.zh.menus.main]]
+        name = "冲锋衣"
+        url = "/products/tactical-jackets/"
+        weight = 1
+        parent = "战术服装"
+      [[languages.zh.menus.main]]
+        name = "羽绒服"
+        url = "/products/down-jackets/"
+        weight = 2
+        parent = "战术服装"
+      [[languages.zh.menus.main]]
+        name = "棉服"
+        url = "/products/cotton-jackets/"
+        weight = 3
+        parent = "战术服装"
+      [[languages.zh.menus.main]]
+        name = "狩猎服装"
+        url = "/products/hunting-clothing/"
+        weight = 4
+        parent = "战术服装"
+      [[languages.zh.menus.main]]
+        name = "服装鞋靴"
+        url = "/products/clothing-footwear/"
+        weight = 4
+        parent = "产品中心"
+      [[languages.zh.menus.main]]
+        name = "帐篷背包"
+        url = "/products/tents-backpacks/"
+        weight = 5
+        parent = "产品中心"
       [[languages.zh.menus.main]]
         name = "关于我们"
         url = "/about/"
@@ -51,7 +117,7 @@ paginate = 12
         name = "联系我们"
         url = "/contact/"
         weight = 4
-    [languages.en]
+  [languages.en]
     contentDir = "content/en"
     languageCode = "en-us"
     languageName = "English"
@@ -65,6 +131,72 @@ paginate = 12
         name = "Products"
         url = "/en/products/"
         weight = 2
+        hasChildren = true
+      [[languages.en.menus.main]]
+        name = "Bulletproof Equipment"
+        url = "/en/products/bulletproof/"
+        weight = 1
+        parent = "Products"
+      [[languages.en.menus.main]]
+        name = "Bulletproof Vests"
+        url = "/en/products/vests/"
+        weight = 1
+        parent = "Bulletproof Equipment"
+      [[languages.en.menus.main]]
+        name = "Ballistic Helmets"
+        url = "/en/products/helmets/"
+        weight = 2
+        parent = "Bulletproof Equipment"
+      [[languages.en.menus.main]]
+        name = "Ballistic Plates"
+        url = "/en/products/plates/"
+        weight = 3
+        parent = "Bulletproof Equipment"
+      [[languages.en.menus.main]]
+        name = "Ballistic Shields"
+        url = "/en/products/shields/"
+        weight = 4
+        parent = "Bulletproof Equipment"
+      [[languages.en.menus.main]]
+        name = "Military & Police Uniforms"
+        url = "/en/products/uniforms/"
+        weight = 2
+        parent = "Products"
+      [[languages.en.menus.main]]
+        name = "Tactical Clothing"
+        url = "/en/products/tactical-clothing/"
+        weight = 3
+        parent = "Products"
+      [[languages.en.menus.main]]
+        name = "Tactical Jackets"
+        url = "/en/products/tactical-jackets/"
+        weight = 1
+        parent = "Tactical Clothing"
+      [[languages.en.menus.main]]
+        name = "Down Jackets"
+        url = "/en/products/down-jackets/"
+        weight = 2
+        parent = "Tactical Clothing"
+      [[languages.en.menus.main]]
+        name = "Cotton Jackets"
+        url = "/en/products/cotton-jackets/"
+        weight = 3
+        parent = "Tactical Clothing"
+      [[languages.en.menus.main]]
+        name = "Hunting Clothing"
+        url = "/en/products/hunting-clothing/"
+        weight = 4
+        parent = "Tactical Clothing"
+      [[languages.en.menus.main]]
+        name = "Clothing & Footwear"
+        url = "/en/products/clothing-footwear/"
+        weight = 4
+        parent = "Products"
+      [[languages.en.menus.main]]
+        name = "Tents & Backpacks"
+        url = "/en/products/tents-backpacks/"
+        weight = 5
+        parent = "Products"
       [[languages.en.menus.main]]
         name = "About Us"
         url = "/en/about/"
