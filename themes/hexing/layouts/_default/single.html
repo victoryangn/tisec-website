@@ -137,10 +137,77 @@
                 {{- end -}}
               </table>
             {{- else -}}
-              <div style="background:var(--bg-light);padding:20px;border-radius:8px;font-size:14px;line-height:2;color:var(--text-dark);white-space:pre-line;">{{ . }}</div>
+              <div id="specs-table" data-specs="{{ . | jsonify }}"></div>
+              <noscript>
+                <div style="background:var(--bg-light);padding:20px;border-radius:8px;font-size:14px;line-height:2;color:var(--text-dark);white-space:pre-line;">{{ . }}</div>
+              </noscript>
             {{- end -}}
           </div>
         {{- end -}}
+
+        {{- /* JS to parse specs text into styled table */ -}}
+        <script>
+        (function(){
+          var el = document.getElementById('specs-table');
+          if (!el) return;
+          var raw = el.getAttribute('data-specs') || '';
+          raw = raw.replace(/^"|"$/g, '');
+          if (!raw || raw === '详情请咨询' || raw === 'Contact for details') {
+            el.innerHTML = '<div style="background:var(--bg-light);padding:20px;border-radius:8px;font-size:14px;color:var(--text-muted);">' + raw + '</div>';
+            return;
+          }
+          // Known spec keys (sorted by length desc for greedy matching)
+          var knownKeys = [
+            '单件装箱尺寸','大批量装箱尺寸','盾体展开尺寸','盾体折叠尺寸',
+            '前中长*后中长*肩宽cm','前中长*后中长*肩宽',
+            '头围尺寸','防弹面积㎡','防弹面积','防护面积','防弹材质','防弹等级',
+            '防弹层材质','防刺层材质','防刺等级','执行标准','面屏防弹等级',
+            '面屏材质','面屏厚度','厚度mm','厚度','重量KGS','重量KG','重量/块','重量',
+            '保质期','喷漆工艺','枪弹类型','弹头结构','弹头质量','射击距离',
+            '弹速','弹着点间距','靶后飞溅','观察窗','包胶','孔型','形状','板厚',
+            '可插板尺寸','前插板尺寸','后插板尺寸','腰围可调节cm',
+            '外套材质','产品尺寸','盾体展开','盾体','盾体折叠','折叠',
+            '材质/工艺','材质','尺寸','颜色','尺码','配件','保险','交期',
+            'NIJ等级','防护等级','型号','视窗尺寸','视窗'
+          ];
+          // Build regex from known keys
+          var keyPattern = new RegExp('(' + knownKeys.map(function(k){return k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}).join('|') + ')：','g');
+          // Split by key：boundaries
+          var parts = raw.split(keyPattern);
+          // parts: ['', key1, val1_fragment, key2, val2_fragment, ...]
+          var pairs = [];
+          for (var i = 1; i < parts.length - 1; i += 2) {
+            var key = parts[i];
+            var val = parts[i+1] || '';
+            // Trim trailing text that's actually the next key's prefix (shouldn't happen with greedy)
+            val = val.trim();
+            if (key && val) pairs.push([key, val]);
+          }
+          if (pairs.length === 0) {
+            // Fallback: try splitting by any Chinese colon
+            var fallback = raw.split('：');
+            for (var j = 0; j < fallback.length - 1; j += 1) {
+              var fk = fallback[j].replace(/^.*([\u4e00-\u9fffA-Za-z]{1,10})$/,'$1');
+              var fv = fallback[j+1] ? fallback[j+1].replace(/([\u4e00-\u9fffA-Za-z]{2,10})$/,'').trim() : '';
+              if (fk && fv) pairs.push([fk, fv]);
+            }
+          }
+          if (pairs.length === 0) {
+            el.innerHTML = '<div style="background:var(--bg-light);padding:20px;border-radius:8px;font-size:14px;line-height:2;color:var(--text-dark);white-space:pre-line;">' + raw + '</div>';
+            return;
+          }
+          var html = '<table style="width:100%;border-collapse:collapse;font-size:14px;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.06);">';
+          for (var p = 0; p < pairs.length; p++) {
+            var bg = p % 2 === 0 ? 'background:var(--bg-light);' : 'background:#fff;';
+            html += '<tr style="' + bg + 'border-bottom:1px solid #f0f0f0;">';
+            html += '<td style="padding:12px 16px;font-weight:600;color:var(--primary);width:35%;white-space:nowrap;border-right:3px solid var(--accent);">' + pairs[p][0] + '</td>';
+            html += '<td style="padding:12px 16px;color:var(--text-dark);">' + pairs[p][1] + '</td>';
+            html += '</tr>';
+          }
+          html += '</table>';
+          el.innerHTML = html;
+        })();
+        </script>
 
         {{- /* Features List */ -}}
         {{- with .Params.features -}}
