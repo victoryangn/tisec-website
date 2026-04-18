@@ -175,7 +175,7 @@
             'NIJ等级','防护等级','型号','视窗尺寸','视窗','前中长','后中长'
           ];
           // Build regex from known keys
-          var keyPattern = new RegExp('(' + knownKeys.map(function(k){return k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}).join('|') + ')：','g');
+          var keyPattern = new RegExp('(' + knownKeys.map(function(k){return k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}).join('|') + ')[：:]','g');
           // Split by key：boundaries
           var parts = raw.split(keyPattern);
           // parts: ['', key1, val1_fragment, key2, val2_fragment, ...]
