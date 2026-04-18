@@ -12,16 +12,9 @@
     <link rel="icon" href="{{ . | relURL }}">
   {{- end -}}
 
-  {{- /* Main CSS via Hugo Pipes */ -}}
-  {{- $cssOpts := dict "targetPath" "css/style.css" -}}
-  {{- if hugo.IsProduction -}}
-    {{- $cssOpts = merge $cssOpts (dict "enableSourceMap" false) -}}
-  {{- else -}}
-    {{- $cssOpts = merge $cssOpts (dict "enableSourceMap" true) -}}
-  {{- end -}}
-
-  {{- if templates.Exists "sass/main.scss" -}}
-    {{- $style := resources.Get "sass/main.scss" | toCSS $cssOpts -}}
+  {{- /* Main CSS */ -}}
+  {{- $style := resources.Get "css/main.css" -}}
+  {{- with $style -}}
     {{- if hugo.IsProduction -}}
       {{- $style = $style | minify | fingerprint -}}
     {{- end -}}
