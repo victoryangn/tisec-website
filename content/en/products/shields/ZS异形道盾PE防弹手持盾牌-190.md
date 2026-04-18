@@ -1,7 +1,7 @@
 ---
 
-title: "ZS异形道盾PE防弹手持盾牌"
-description: "ZS异形道盾PE防弹手持盾牌 - Shenzhen HeXing Protection Tech. Co., Ltd."
+title: "ZS Shaped PE Handheld Ballistic Shield"
+description: "ZS Shaped PE Handheld Ballistic Shield - Shenzhen HeXing Protection Tech. Co., Ltd."
 date: 2026-04-18
 draft: false
 category: "shields"
@@ -16,9 +16,9 @@ specs: |
 
 ---
 
-# ZS异形道盾PE防弹手持盾牌
+# ZS Shaped PE Handheld Ballistic Shield
 
-ZS异形道盾PE防弹手持盾牌 supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
+ZS Shaped PE Handheld Ballistic Shield supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
 
 ## Specifications
 

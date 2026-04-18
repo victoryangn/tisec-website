@@ -1,7 +1,7 @@
 ---
 
-title: "PASGT-M88防弹头盔"
-description: "PASGT-M88防弹头盔 - Shenzhen HeXing Protection Tech. Co., Ltd."
+title: "PASGT-M88 Ballistic Helmet"
+description: "PASGT-M88 Ballistic Helmet - Shenzhen HeXing Protection Tech. Co., Ltd."
 date: 2026-04-18
 draft: false
 category: "helmets"
@@ -15,9 +15,9 @@ specs: |
 
 ---
 
-# PASGT-M88防弹头盔
+# PASGT-M88 Ballistic Helmet
 
-PASGT-M88防弹头盔 supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
+PASGT-M88 Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
 
 ## Specifications
 

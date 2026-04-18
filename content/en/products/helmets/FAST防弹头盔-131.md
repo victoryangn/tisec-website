@@ -1,7 +1,7 @@
 ---
 
-title: "FAST防弹头盔"
-description: "FAST防弹头盔 - Shenzhen HeXing Protection Tech. Co., Ltd."
+title: "FAST Ballistic Helmet"
+description: "FAST Ballistic Helmet - Shenzhen HeXing Protection Tech. Co., Ltd."
 date: 2026-04-18
 draft: false
 category: "helmets"
@@ -16,9 +16,9 @@ specs: |
 
 ---
 
-# FAST防弹头盔
+# FAST Ballistic Helmet
 
-FAST防弹头盔 supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
+FAST Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
 
 ## Specifications
 

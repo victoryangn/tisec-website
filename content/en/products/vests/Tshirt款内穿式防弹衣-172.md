@@ -1,7 +1,7 @@
 ---
 
-title: "Tshirt款内穿式防弹衣"
-description: "Tshirt款内穿式防弹衣 - Shenzhen HeXing Protection Tech. Co., Ltd."
+title: "T-Shirt Style Concealable Body Armor"
+description: "T-Shirt Style Concealable Body Armor - Shenzhen HeXing Protection Tech. Co., Ltd."
 date: 2026-04-18
 draft: false
 category: "vests"
@@ -13,9 +13,9 @@ specs: |
 
 ---
 
-# Tshirt款内穿式防弹衣
+# T-Shirt Style Concealable Body Armor
 
-Tshirt款内穿式防弹衣 supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
+T-Shirt Style Concealable Body Armor supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
 
 ## Specifications
 
