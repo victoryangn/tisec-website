@@ -45,7 +45,6 @@ featured_image = "/images/about/company-hero.jpg"
 - ISO 9001:2015 质量管理体系认证
 - NIJ（美国国家司法研究所）弹道防护标准合规
 - CE 欧盟认证（适用产品）
-- 中国军需物资生产资质
 - 多国政府采购合格供应商
 
 ## 团队与实力
