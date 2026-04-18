@@ -9,7 +9,7 @@ images:
   - "/images/products/ccgk/Tshirt款内穿式防弹衣-3.jpg"
   - "/images/products/ccgk/Tshirt款内穿式防弹衣-2.jpg"
 specs: |
-  外套材质：弹力透气面料尺码：M, L, XL可选颜色：黑色，可定制防弹面积：0.14㎡防弹层材质：PE，芳纶防弹等级：GA2，GA3执行标准：《GA 141-2010 警用防弹衣》   配件：无保险：平安保险300万保质期：8年交期：根据订单数量确定
+  外套材质：Stretch breathable fabric尺码：M, L, XL可选颜色：Black，Customizable防弹面积：0.14㎡防弹层材质：PE, Aramid防弹等级：GA2，GA3执行标准：GA 141-2010 Police Body Armor Standard   配件：No insurance：Ping An Insurance 3M RMB保质期：8 years交期：Based on order quantity
 
 ---
 
@@ -19,7 +19,7 @@ T-Shirt Style Concealable Body Armor supplied by Shenzhen HeXing Protection Tech
 
 ## Specifications
 
-外套材质：弹力透气面料尺码：M, L, XL可选颜色：黑色，可定制防弹面积：0.14㎡防弹层材质：PE，芳纶防弹等级：GA2，GA3执行标准：《GA 141-2010 警用防弹衣》   配件：无保险：平安保险300万保质期：8年交期：根据订单数量确定
+外套材质：Stretch breathable fabric尺码：M, L, XL可选颜色：Black，Customizable防弹面积：0.14㎡防弹层材质：PE, Aramid防弹等级：GA2，GA3执行标准：GA 141-2010 Police Body Armor Standard   配件：No insurance：Ping An Insurance 3M RMB保质期：8 years交期：Based on order quantity
 
 ## Contact Us
 

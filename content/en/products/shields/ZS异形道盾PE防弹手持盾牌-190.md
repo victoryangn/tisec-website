@@ -12,7 +12,7 @@ images:
   - "/images/products/ccgk/ZS异形道盾PE防弹手持盾牌-2.jpg"
   - "/images/products/ccgk/ZS异形道盾PE防弹手持盾牌-1.jpg"
 specs: |
-  防弹材质：高分子聚乙烯（PE）尺寸：850*520mm颜色：黑色，可定制防弹面积㎡：0.40㎡厚度mm：6-7mm防弹等级：GA3执行标准：《GA 423-2015 警用防弹盾牌》喷漆工艺：聚脲喷漆保险：平安保险300万保质期：8年
+  防弹材质：UHMWPE (Polyethylene)尺寸：850*520mm颜色：Black，Customizable防弹面积㎡：0.40㎡厚度mm：6-7mm防弹等级：GA3执行标准：GA 423-2015 Police Ballistic Shield Standard喷漆工艺：Polyurea coating保险：Ping An Insurance 3M RMB保质期：8 years
 
 ---
 
@@ -22,7 +22,7 @@ ZS Shaped PE Handheld Ballistic Shield supplied by Shenzhen HeXing Protection Te
 
 ## Specifications
 
-防弹材质：高分子聚乙烯（PE）尺寸：850*520mm颜色：黑色，可定制防弹面积㎡：0.40㎡厚度mm：6-7mm防弹等级：GA3执行标准：《GA 423-2015 警用防弹盾牌》喷漆工艺：聚脲喷漆保险：平安保险300万保质期：8年
+防弹材质：UHMWPE (Polyethylene)尺寸：850*520mm颜色：Black，Customizable防弹面积㎡：0.40㎡厚度mm：6-7mm防弹等级：GA3执行标准：GA 423-2015 Police Ballistic Shield Standard喷漆工艺：Polyurea coating保险：Ping An Insurance 3M RMB保质期：8 years
 
 ## Contact Us
 

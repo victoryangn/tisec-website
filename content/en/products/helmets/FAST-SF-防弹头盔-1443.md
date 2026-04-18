@@ -14,7 +14,7 @@ images:
   - "/images/products/ccgk/FAST-SF-防弹头盔-3.jpg"
   - "/images/products/ccgk/FAST-SF-防弹头盔-1.jpg"
 specs: |
-  详情请咨询
+  Contact for details
 
 ---
 
@@ -24,7 +24,7 @@ FAST SF Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co., Ltd. 
 
 ## Specifications
 
-详情请咨询我们
+Contact for details我们
 
 ## Contact Us
 
