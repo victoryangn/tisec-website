@@ -118,14 +118,27 @@
             <h3 style="font-size:18px;font-weight:700;color:var(--primary);margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid var(--accent);">
               {{ if $isZh }}产品规格{{ else }}Specifications{{ end }}
             </h3>
-            <table style="width:100%;border-collapse:collapse;font-size:14px;">
-              {{- range . -}}
-                <tr style="border-bottom:1px solid #f0f0f0;">
-                  <td style="padding:12px 16px;font-weight:600;color:var(--text-dark);background:var(--bg-light);width:40%;white-space:nowrap;">{{ index . 0 }}</td>
-                  <td style="padding:12px 16px;color:var(--text-muted);">{{ index . 1 }}</td>
-                </tr>
-              {{- end -}}
-            </table>
+            {{- if reflect.IsMap . -}}
+              <table style="width:100%;border-collapse:collapse;font-size:14px;">
+                {{- range $key, $val := . -}}
+                  <tr style="border-bottom:1px solid #f0f0f0;">
+                    <td style="padding:12px 16px;font-weight:600;color:var(--text-dark);background:var(--bg-light);width:40%;white-space:nowrap;">{{ $key }}</td>
+                    <td style="padding:12px 16px;color:var(--text-muted);">{{ $val }}</td>
+                  </tr>
+                {{- end -}}
+              </table>
+            {{- else if reflect.IsSlice . -}}
+              <table style="width:100%;border-collapse:collapse;font-size:14px;">
+                {{- range . -}}
+                  <tr style="border-bottom:1px solid #f0f0f0;">
+                    <td style="padding:12px 16px;font-weight:600;color:var(--text-dark);background:var(--bg-light);width:40%;white-space:nowrap;">{{ index . 0 }}</td>
+                    <td style="padding:12px 16px;color:var(--text-muted);">{{ index . 1 }}</td>
+                  </tr>
+                {{- end -}}
+              </table>
+            {{- else -}}
+              <div style="background:var(--bg-light);padding:20px;border-radius:8px;font-size:14px;line-height:2;color:var(--text-dark);white-space:pre-line;">{{ . }}</div>
+            {{- end -}}
           </div>
         {{- end -}}
 

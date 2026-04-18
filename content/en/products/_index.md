@@ -1,43 +1,26 @@
-+++
-title = "Products"
-description = "HeXing Protection product center — covering bulletproof equipment, clothing & footwear, tents & backpacks, night vision, military vehicles, and fabrics & textiles"
-date = 2026-01-01
-draft = false
-featured_image = "/images/products/products-hero.jpg"
-
-[params]
-  hero_title = "Product Center"
-  hero_subtitle = "Complete range of military protective equipment for diverse security needs"
-+++
+---
+title: "Products"
+description: "Shenzhen HeXing Protection - Professional supplier of bulletproof helmets, plates, shields, vests and body armor"
+date: 2026-01-01
+draft: false
+---
 
 ## Product Categories
 
-HeXing Protection offers over 500 military and tactical products across six major categories, covering personal protection, field support, optical reconnaissance, special vehicles, and textile materials.
+HeXing Protection supplies a full range of military and police ballistic protection equipment:
 
-### 🔫 Bulletproof Equipment
+### 🪖 Bulletproof Helmets
+FAST, MICH2000, PASGT and other models. Made with aramid, PE and other advanced composite materials.
 
-Body armor, ballistic helmets, and bulletproof shields manufactured with advanced composite materials for reliable ballistic protection. Compliant with NIJ standards and multiple international certifications.
+### 🛡️ Bulletproof Plates
+PE, ceramic, and steel ballistic plates and side plates. Available in GA2-GA6 protection levels.
 
-### 👕 Clothing & Footwear
+### 🛡️ Bulletproof Shields
+Handheld, wheeled, and foldable ballistic shields for large-area ballistic protection.
 
-Military uniforms, combat boots, and tactical gloves made from wear-resistant and waterproof materials, designed for combat and training operations in all environments.
-
-### ⛺ Tents & Backpacks
-
-Military tents, tactical backpacks, and sleeping bags featuring lightweight design and high durability to meet the demands of field training and combat operations.
-
-### 🔭 Night Vision
-
-Night vision devices, thermal imaging cameras, and optical scopes with high-resolution imaging and long-range observation capabilities to enhance nighttime operational effectiveness.
-
-### 🚗 Military Vehicles
-
-Armored vehicles and patrol vehicles built for durability and reliable performance, meeting diverse security protection and patrol mission requirements.
-
-### 🧵 Fabrics & Textiles
-
-Military-grade fabrics, belts, and webbing made from high-strength fibers with excellent abrasion and corrosion resistance, customizable to customer specifications.
+### 🦺 Bulletproof Vests / Stab Resistant Vests
+Tactical vests, concealed vests, JPC carriers, stab resistant vests. Customization available.
 
 ---
 
-> For a complete product catalog or custom solutions, please [contact us](/en/contact/).
+> For full product catalog or custom solutions, please [contact us](/en/contact/).
