@@ -45,13 +45,21 @@
 {{- /* =========================================
    PRODUCT CATEGORIES SECTION
    ========================================= */ -}}
+{{- /* SVG icons — shield, shirt, tent, binoculars, truck, fabric patterns */ -}}
+{{- $svgShield := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>` -}}
+{{- $svgShirt := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>` -}}
+{{- $svgTent := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"/><path d="M3 20l5-14 5 7 3-4 5 11"/><path d="M8 6l5 7"/><path d="M13 13l3-4"/></svg>` -}}
+{{- $svgBinoculars := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10l3-7h4l1 7"/><path d="M14 10l1-7h4l3 7"/><circle cx="6" cy="14" r="4"/><circle cx="18" cy="14" r="4"/><path d="M10 14h4"/></svg>` -}}
+{{- $svgTruck := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18H3a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h10v12"/><path d="M13 18H5"/><path d="M13 6h4l4 4v7a1 1 0 0 1-1 1h-1"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>` -}}
+{{- $svgFabric := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M2 8h20"/><path d="M2 14h20"/><path d="M8 2v20"/><path d="M14 2v20"/></svg>` -}}
+
 {{- $categories := slice
-  (dict "icon" "🛡️" "titleZh" "防弹装备" "titleEn" "Ballistic Equipment" "descZh" "防弹头盔、防弹衣、防弹板" "descEn" "Bulletproof helmets, vests, and plates" "url" "/products/ballistic/")
-  (dict "icon" "🧥" "titleZh" "防护服装" "titleEn" "Protective Clothing" "descZh" "战术服装、防刺服、防割服" "descEn" "Tactical clothing, stab & cut resistant" "url" "/products/clothing/")
-  (dict "icon" "🏕️" "titleZh" "帐篷/箱包" "titleEn" "Tents & Bags" "descZh" "军用帐篷、战术背包、携行具" "descEn" "Military tents, tactical bags & packs" "url" "/products/tents-bags/")
-  (dict "icon" "🔭" "titleZh" "夜视装备" "titleEn" "Night Vision" "descZh" "夜视仪、红外热成像、瞄具" "descEn" "Night vision, thermal imaging, scopes" "url" "/products/night-vision/")
-  (dict "icon" "🚗" "titleZh" "防护车辆" "titleEn" "Armored Vehicles" "descZh" "防弹车、装甲车、车辆改装" "descEn" "Bulletproof & armored vehicles" "url" "/products/vehicles/")
-  (dict "icon" "🧵" "titleZh" "功能面料" "titleEn" "Technical Fabrics" "descZh" "芳纶、UHMWPE、防弹复合材料" "descEn" "Aramid, UHMWPE, ballistic composites" "url" "/products/fabrics/")
+  (dict "svg" $svgShield "titleZh" "防弹装备" "titleEn" "Ballistic Equipment" "descZh" "防弹头盔、防弹衣、防弹板" "descEn" "Bulletproof helmets, vests, and plates" "url" "/products/ballistic/")
+  (dict "svg" $svgShirt "titleZh" "防护服装" "titleEn" "Protective Clothing" "descZh" "战术服装、防刺服、防割服" "descEn" "Tactical clothing, stab & cut resistant" "url" "/products/clothing/")
+  (dict "svg" $svgTent "titleZh" "帐篷/箱包" "titleEn" "Tents & Bags" "descZh" "军用帐篷、战术背包、携行具" "descEn" "Military tents, tactical bags & packs" "url" "/products/tents-bags/")
+  (dict "svg" $svgBinoculars "titleZh" "夜视装备" "titleEn" "Night Vision" "descZh" "夜视仪、红外热成像、瞄具" "descEn" "Night vision, thermal imaging, scopes" "url" "/products/night-vision/")
+  (dict "svg" $svgTruck "titleZh" "防护车辆" "titleEn" "Armored Vehicles" "descZh" "防弹车、装甲车、车辆改装" "descEn" "Bulletproof & armored vehicles" "url" "/products/vehicles/")
+  (dict "svg" $svgFabric "titleZh" "功能面料" "titleEn" "Technical Fabrics" "descZh" "芳纶、UHMWPE、防弹复合材料" "descEn" "Aramid, UHMWPE, ballistic composites" "url" "/products/fabrics/")
 -}}
 
 <section id="categories" style="padding:80px 20px;background:var(--bg-light);">
@@ -74,7 +82,7 @@
         <a href="{{ $link }}" style="display:block;background:#fff;border-radius:12px;padding:32px 28px;text-decoration:none;color:inherit;box-shadow:0 2px 12px rgba(0,0,0,0.06);transition:transform 0.3s,box-shadow 0.3s;border:1px solid transparent;"
            onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 8px 30px rgba(27,94,32,0.15)';this.style.borderColor='var(--olive)';"
            onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';this.style.borderColor='transparent';">
-          <div style="font-size:48px;margin-bottom:16px;">{{ .icon }}</div>
+          <div style="width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,rgba(27,94,32,0.08),rgba(139,195,74,0.12));display:flex;align-items:center;justify-content:center;margin-bottom:16px;">{{ .svg | safeHTML }}</div>
           <h3 style="font-size:20px;font-weight:700;color:var(--primary);margin:0 0 10px;">{{ $title }}</h3>
           <p style="color:var(--text-muted);font-size:14px;margin:0;line-height:1.6;">{{ $desc }}</p>
           <span style="display:inline-block;margin-top:16px;color:var(--olive);font-weight:600;font-size:14px;">
