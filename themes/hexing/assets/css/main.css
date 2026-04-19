@@ -157,9 +157,11 @@ a:hover { color: var(--accent); }
   position: relative;
 }
 .nav-dropdown-toggle .nav-caret {
-  font-size: 0.75em;
-  margin-left: 4px;
+  font-size: 1.1em;
+  margin-left: 5px;
   transition: transform 0.2s;
+  display: inline-block;
+  line-height: 1;
 }
 .nav-item.has-children:hover > .nav-link.nav-dropdown-toggle .nav-caret {
   transform: rotate(180deg);
