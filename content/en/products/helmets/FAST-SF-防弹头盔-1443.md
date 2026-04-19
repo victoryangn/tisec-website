@@ -1,5 +1,4 @@
 ---
-
 title: "FAST SF Ballistic Helmet"
 description: "FAST SF Ballistic Helmet - Shenzhen HeXing Protection Tech. Co., Ltd."
 date: 2026-04-18
@@ -14,8 +13,11 @@ images:
   - "/images/products/ccgk/FAST-SF-防弹头盔-3.jpg"
   - "/images/products/ccgk/FAST-SF-防弹头盔-1.jpg"
 specs: |
-  Contact for details
-
+  Helmet Type: FAST SF
+  Material: Aramid, PE or Composite
+  Size: M, L, XL, XXL
+  Weight: 1.4-1.7kg
+  Protection Level: GA2, GA3, NIJ IIIA .44
 ---
 
 # FAST SF Ballistic Helmet
@@ -24,7 +26,11 @@ FAST SF Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co., Ltd. 
 
 ## Specifications
 
-Contact for details
+Helmet Type: FAST SF
+Material: Aramid, PE or Composite
+Size: M, L, XL, XXL
+Weight: 1.4-1.7kg
+Protection Level: GA2, GA3, NIJ IIIA .44
 
 ## Contact Us
 
