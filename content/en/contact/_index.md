@@ -16,7 +16,7 @@ draft = false
     postcode = ""
     contact_person = "Victor Yang"
     phone = "+86 13402060841"
-    email = "info@tisech.com"
+    email = "victoryangn@gmail.com"
     website = "https://www.tisech.com"
 
   [params.form]

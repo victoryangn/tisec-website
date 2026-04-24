@@ -35,5 +35,5 @@ Protection Level: GA2, GA3, NIJ IIIA .44
 ## Contact Us
 
 - Tel: +86 13402060841
-- Email: info@hexingtac.com
+- Email: victoryangn@gmail.com
 - Address: R. 820, Building A, Sanhuan Technology Building, Guangming District, Shenzhen, China

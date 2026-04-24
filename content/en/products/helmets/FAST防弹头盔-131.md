@@ -49,5 +49,5 @@ Shelf Life: 8 years
 ## Contact Us
 
 - Tel: +86 13402060841
-- Email: info@hexingtac.com
+- Email: victoryangn@gmail.com
 - Address: R. 820, Building A, Sanhuan Technology Building, Guangming District, Shenzhen, China
