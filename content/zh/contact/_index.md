@@ -1,6 +1,6 @@
 +++
 title = "联系我们"
-description = "联系深圳市和兴防护科技有限公司 — 获取产品报价、定制方案及合作咨询"
+description = "联系泰世科技有限公司 — 获取产品报价、定制方案及合作咨询"
 date = 2026-01-01
 draft = false
 
@@ -9,15 +9,15 @@ draft = false
   hero_subtitle = "期待与您的每一次对话"
 
   [params.company]
-    name_zh = "深圳市和兴防护科技有限公司"
-    name_en = "Shenzhen HeXing Protection Tech. Co., Ltd."
-    address_zh = "深圳市光明区凤凰街道甲子塘社区同仁路52号 三环科技大厦A栋820"
-    address_en = "R. 820, Building A, Sanhuan Technology Building, No. 52, Tongren Road, Jiazitang Community, Fenghuang Sub-district, Guangming District, Shenzhen City, Guangdong Province, China"
-    postcode = "518107"
+    name_zh = "泰世科技有限公司"
+    name_en = "TISEC TECH LIMITED"
+    address_zh = "香港新界葵涌石锦街17-23号建业工业大厦15楼B室"
+    address_en = "Room B, 15F, Kin Hing Industrial Building, 17-23 Shek Kin Street, Kwai Chung, NT, Hong Kong"
+    postcode = ""
     contact_person = "Victor Yang"
     phone = "+86 13402060841"
-    email = "info@hexing-protection.com"
-    website = "https://www.hexing-protection.com"
+    email = "info@tisech.com"
+    website = "https://www.tisech.com"
 
   [params.form]
     enabled = true
@@ -30,21 +30,19 @@ draft = false
 
 ### 📍 公司地址
 
-**深圳市和兴防护科技有限公司**
+**泰世科技有限公司**
 
-中国广东省深圳市光明区凤凰街道甲子塘社区同仁路52号 三环科技大厦A栋820
-
-邮政编码：518107
+香港新界葵涌石锦街17-23号建业工业大厦15楼B室
 
 ### 📞 联系信息
 
 - **联系人**：Victor Yang（杨先生）
 - **电话/微信**：+86 13402060841
-- **邮箱**：info@hexing-protection.com
+- **邮箱**：info@tisech.com
 
 ### 🕐 工作时间
 
-- 周一至周五：09:00 - 18:00（北京时间 UTC+8）
+- 周一至周五：09:00 - 18:00（香港时间 UTC+8）
 - 周六：09:00 - 12:00
 - 周日及法定节假日休息
 
@@ -54,7 +52,7 @@ draft = false
 
 - **微信**：扫描二维码或搜索手机号添加
 - **WhatsApp**：+86 13402060841
-- **邮件**：发送详细信息至 info@hexing-protection.com
+- **邮件**：发送详细信息至 info@tisech.com
 
 ## 合作流程
 

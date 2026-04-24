@@ -4,9 +4,9 @@
 {{- /* =========================================
    HERO SECTION
    ========================================= */ -}}
-<section id="hero" style="position:relative;min-height:600px;display:flex;align-items:center;background:linear-gradient(135deg, #1B5E20 0%, #2E7D32 30%, #558B2F 70%, #33691E 100%);overflow:hidden;">
+<section id="hero" style="position:relative;min-height:600px;display:flex;align-items:center;background:linear-gradient(135deg, #004999 0%, #0066CC 30%, #1a1a2e 70%, #0a1628 100%);overflow:hidden;">
   {{- /* Decorative geometric shapes */ -}}
-  <div style="position:absolute;top:-100px;right:-100px;width:500px;height:500px;background:rgba(212,168,67,0.08);border-radius:50%;"></div>
+  <div style="position:absolute;top:-100px;right:-100px;width:500px;height:500px;background:rgba(0,168,255,0.08);border-radius:50%;"></div>
   <div style="position:absolute;bottom:-150px;left:-100px;width:600px;height:600px;background:rgba(255,255,255,0.03);border-radius:50%;"></div>
   <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:800px;height:800px;border:1px solid rgba(255,255,255,0.05);border-radius:50%;"></div>
 
@@ -25,13 +25,13 @@
       <p style="color:rgba(255,255,255,0.9);font-size:clamp(16px,2vw,22px);max-width:700px;margin:0 auto 40px;line-height:1.6;">{{ . }}</p>
     {{- else -}}
       <p style="color:rgba(255,255,255,0.9);font-size:clamp(16px,2vw,22px);max-width:700px;margin:0 auto 40px;line-height:1.6;">
-        {{ if $isZh }}深圳市和兴防护科技有限公司 — 十余年专注防弹、防刺、战术装备的研发与制造，产品远销全球50+国家和地区。{{ else }}Shenzhen HeXing Protection Tech. Co., Ltd. — Over a decade of expertise in ballistic, stab-resistant, and tactical equipment, serving 50+ countries worldwide.{{ end }}
+        {{ if $isZh }}泰世科技有限公司 — 十余年专注防弹、防刺、战术装备的研发与制造，产品远销全球50+国家和地区。{{ else }}TISEC TECH LIMITED — Over a decade of expertise in ballistic, stab-resistant, and tactical equipment, serving 50+ countries worldwide.{{ end }}
       </p>
     {{- end -}}
 
     <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
       <a href="{{ if $isZh }}/products/{{ else }}/en/products/{{ end }}"
-         style="display:inline-flex;align-items:center;gap:8px;padding:16px 36px;background:var(--accent);color:#fff;font-size:16px;font-weight:700;border-radius:8px;text-decoration:none;transition:transform 0.3s,box-shadow 0.3s;box-shadow:0 4px 15px rgba(212,168,67,0.4);">
+         style="display:inline-flex;align-items:center;gap:8px;padding:16px 36px;background:var(--accent);color:#fff;font-size:16px;font-weight:700;border-radius:8px;text-decoration:none;transition:transform 0.3s,box-shadow 0.3s;box-shadow:0 4px 15px rgba(0,168,255,0.4);">
         {{ if $isZh }}浏览产品{{ else }}Browse Products{{ end }} →
       </a>
       <a href="{{ if $isZh }}/contact/{{ else }}/en/contact/{{ end }}"
@@ -46,12 +46,12 @@
    PRODUCT CATEGORIES SECTION
    ========================================= */ -}}
 {{- /* SVG icons — shield, shirt, tent, binoculars, truck, fabric patterns */ -}}
-{{- $svgShield := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>` -}}
-{{- $svgShirt := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>` -}}
-{{- $svgTent := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"/><path d="M3 20l5-14 5 7 3-4 5 11"/><path d="M8 6l5 7"/><path d="M13 13l3-4"/></svg>` -}}
-{{- $svgBinoculars := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10l3-7h4l1 7"/><path d="M14 10l1-7h4l3 7"/><circle cx="6" cy="14" r="4"/><circle cx="18" cy="14" r="4"/><path d="M10 14h4"/></svg>` -}}
-{{- $svgTruck := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18H3a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h10v12"/><path d="M13 18H5"/><path d="M13 6h4l4 4v7a1 1 0 0 1-1 1h-1"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>` -}}
-{{- $svgFabric := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M2 8h20"/><path d="M2 14h20"/><path d="M8 2v20"/><path d="M14 2v20"/></svg>` -}}
+{{- $svgShield := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>` -}}
+{{- $svgShirt := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>` -}}
+{{- $svgTent := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"/><path d="M3 20l5-14 5 7 3-4 5 11"/><path d="M8 6l5 7"/><path d="M13 13l3-4"/></svg>` -}}
+{{- $svgBinoculars := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10l3-7h4l1 7"/><path d="M14 10l1-7h4l3 7"/><circle cx="6" cy="14" r="4"/><circle cx="18" cy="14" r="4"/><path d="M10 14h4"/></svg>` -}}
+{{- $svgTruck := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18H3a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h10v12"/><path d="M13 18H5"/><path d="M13 6h4l4 4v7a1 1 0 0 1-1 1h-1"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>` -}}
+{{- $svgFabric := `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M2 8h20"/><path d="M2 14h20"/><path d="M8 2v20"/><path d="M14 2v20"/></svg>` -}}
 
 {{- $categories := slice
   (dict "svg" $svgShield "titleZh" "防弹装备" "titleEn" "Ballistic Equipment" "descZh" "防弹头盔、防弹衣、防弹插板、防弹盾牌" "descEn" "Ballistic helmets, vests, plates & shields" "url" "/products/helmets/")
@@ -80,12 +80,12 @@
         {{- $desc := cond $isZh .descZh .descEn -}}
         {{- $link := cond $isZh .url (print "/en" .url) -}}
         <a href="{{ $link }}" style="display:block;background:#fff;border-radius:12px;padding:32px 28px;text-decoration:none;color:inherit;box-shadow:0 2px 12px rgba(0,0,0,0.06);transition:transform 0.3s,box-shadow 0.3s;border:1px solid transparent;"
-           onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 8px 30px rgba(27,94,32,0.15)';this.style.borderColor='var(--olive)';"
+           onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 8px 30px rgba(0,102,204,0.15)';this.style.borderColor='var(--primary)';"
            onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)';this.style.borderColor='transparent';">
-          <div style="width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,rgba(27,94,32,0.08),rgba(139,195,74,0.12));display:flex;align-items:center;justify-content:center;margin-bottom:16px;">{{ .svg | safeHTML }}</div>
+          <div style="width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,rgba(0,102,204,0.08),rgba(0,168,255,0.12));display:flex;align-items:center;justify-content:center;margin-bottom:16px;">{{ .svg | safeHTML }}</div>
           <h3 style="font-size:20px;font-weight:700;color:var(--primary);margin:0 0 10px;">{{ $title }}</h3>
           <p style="color:var(--text-muted);font-size:14px;margin:0;line-height:1.6;">{{ $desc }}</p>
-          <span style="display:inline-block;margin-top:16px;color:var(--olive);font-weight:600;font-size:14px;">
+          <span style="display:inline-block;margin-top:16px;color:var(--primary);font-weight:600;font-size:14px;">
             {{ if $isZh }}了解更多 →{{ else }}Learn More →{{ end }}
           </span>
         </a>
@@ -135,7 +135,7 @@
               <p style="color:var(--text-muted);font-size:13px;margin:0;line-height:1.5;">{{ .Summary | truncate 100 }}</p>
             {{- end -}}
             {{- with .Params.category -}}
-              <span style="display:inline-block;margin-top:10px;padding:4px 10px;background:rgba(85,139,47,0.1);color:var(--olive);font-size:12px;border-radius:4px;">{{ . }}</span>
+              <span style="display:inline-block;margin-top:10px;padding:4px 10px;background:rgba(0,102,204,0.1);color:var(--primary);font-size:12px;border-radius:4px;">{{ . }}</span>
             {{- end -}}
           </div>
         </a>
@@ -157,23 +157,23 @@
 {{- /* =========================================
    ABOUT TEASER SECTION
    ========================================= */ -}}
-<section id="about-teaser" style="padding:80px 20px;background:linear-gradient(135deg, #1B5E20 0%, #2E7D32 50%, #558B2F 100%);color:#fff;">
+<section id="about-teaser" style="padding:80px 20px;background:linear-gradient(135deg, #004999 0%, #0066CC 50%, #1a1a2e 100%);color:#fff;">
   <div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
     {{- /* Left: Text */ -}}
     <div>
       <h2 style="font-size:clamp(24px,3vw,36px);font-weight:800;margin:0 0 20px;">
-        {{ if $isZh }}关于和兴{{ else }}About HeXing{{ end }}
+        {{ if $isZh }}关于泰世{{ else }}About TISEC{{ end }}
       </h2>
       <div style="width:60px;height:4px;background:var(--accent);margin:0 0 24px;border-radius:2px;"></div>
       <p style="color:rgba(255,255,255,0.9);line-height:1.8;font-size:16px;margin:0 0 24px;">
         {{ if $isZh }}
-          深圳市和兴防护科技有限公司是一家专注于军用防护装备和战术装备研发、生产与出口的高科技企业。公司产品涵盖防弹装备、防护服装、军用帐篷、夜视设备等多个领域，已远销全球50多个国家和地区。
+          泰世科技有限公司是一家专注于军用防护装备和战术装备研发、生产与出口的高科技企业。公司产品涵盖防弹装备、防护服装、军用帐篷、夜视设备等多个领域，已远销全球50多个国家和地区。
         {{ else }}
-          Shenzhen HeXing Protection Tech. Co., Ltd. is a high-tech enterprise specializing in the R&D, production, and export of military protective equipment and tactical gear. Our products span ballistic equipment, protective clothing, military tents, night vision devices, and more, exported to 50+ countries worldwide.
+          TISEC TECH LIMITED is a high-tech enterprise specializing in the R&D, production, and export of military protective equipment and tactical gear. Our products span ballistic equipment, protective clothing, military tents, night vision devices, and more, exported to 50+ countries worldwide.
         {{ end }}
       </p>
       <a href="{{ if $isZh }}/about/{{ else }}/en/about/{{ end }}"
-         style="display:inline-flex;align-items:center;gap:8px;padding:14px 32px;background:var(--accent);color:#fff;font-weight:700;border-radius:8px;text-decoration:none;transition:transform 0.3s;box-shadow:0 4px 15px rgba(212,168,67,0.3);">
+         style="display:inline-flex;align-items:center;gap:8px;padding:14px 32px;background:var(--accent);color:#fff;font-weight:700;border-radius:8px;text-decoration:none;transition:transform 0.3s;box-shadow:0 4px 15px rgba(0,168,255,0.3);">
         {{ if $isZh }}了解更多 →{{ else }}Learn More →{{ end }}
       </a>
     </div>
@@ -222,7 +222,7 @@
       {{ if $isZh }}我们的专业团队可为您量身定制防护解决方案{{ else }}Our expert team can tailor protection solutions to your specific needs{{ end }}
     </p>
     <a href="{{ if $isZh }}/contact/{{ else }}/en/contact/{{ end }}"
-       style="display:inline-flex;align-items:center;gap:8px;padding:16px 40px;background:var(--primary);color:#fff;font-size:16px;font-weight:700;border-radius:8px;text-decoration:none;box-shadow:0 4px 15px rgba(27,94,32,0.3);transition:background 0.3s;">
+       style="display:inline-flex;align-items:center;gap:8px;padding:16px 40px;background:var(--primary);color:#fff;font-size:16px;font-weight:700;border-radius:8px;text-decoration:none;box-shadow:0 4px 15px rgba(0,102,204,0.3);transition:background 0.3s;">
       ✉ {{ if $isZh }}发送询盘{{ else }}Send Inquiry{{ end }}
     </a>
   </div>

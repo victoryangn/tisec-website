@@ -3,7 +3,6 @@ title = "HX-CB01 Tactical Combat Boots"
 description = "Full-terrain military combat boots with premium cowhide leather and 1000D nylon upper, slip-resistant, breathable and waterproof — ideal for jungle, desert, and urban combat environments"
 date = 2026-02-01
 draft = false
-featured_image = "/images/products/combat-boots.jpg"
 category = "Clothing & Footwear"
 tags = ["combat boots", "military boots", "tactical boots", "clothing & footwear", "slip-resistant"]
 price = "Contact for Price"
@@ -24,6 +23,8 @@ price = "Contact for Price"
     "Operating Temperature" = "-30°C to +50°C"
     "Certification" = "CE EN ISO 20347, SBP certified"
     "Warranty" = "1 year"
+featured = true
+summary = "Full-grain leather + 1000D nylon | GORE-TEX waterproof | Natural rubber sole | EU 38-47 full sizing"
 +++
 
 ## Product Overview

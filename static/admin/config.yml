@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: victoryangn/hexing-website
+  repo: victoryangn/tisec-website
   branch: main
   auth_type: pkce
   app_id: "decap-cms"

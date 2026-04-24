@@ -1,6 +1,6 @@
 +++
 title = "Contact Us"
-description = "Contact Shenzhen HeXing Protection Tech. Co., Ltd. for product quotations, custom solutions, and partnership inquiries"
+description = "Contact TISEC TECH LIMITED for product quotations, custom solutions, and partnership inquiries"
 date = 2026-01-01
 draft = false
 
@@ -9,15 +9,15 @@ draft = false
   hero_subtitle = "We look forward to hearing from you"
 
   [params.company]
-    name_zh = "深圳市和兴防护科技有限公司"
-    name_en = "Shenzhen HeXing Protection Tech. Co., Ltd."
-    address_zh = "深圳市光明区凤凰街道甲子塘社区同仁路52号 三环科技大厦A栋820"
-    address_en = "R. 820, Building A, Sanhuan Technology Building, No. 52, Tongren Road, Jiazitang Community, Fenghuang Sub-district, Guangming District, Shenzhen City, Guangdong Province, China"
-    postcode = "518107"
+    name_zh = "泰世科技有限公司"
+    name_en = "TISEC TECH LIMITED"
+    address_zh = "香港新界葵涌石锦街17-23号建业工业大厦15楼B室"
+    address_en = "Room B, 15F, Kin Hing Industrial Building, 17-23 Shek Kin Street, Kwai Chung, NT, Hong Kong"
+    postcode = ""
     contact_person = "Victor Yang"
     phone = "+86 13402060841"
-    email = "info@hexing-protection.com"
-    website = "https://www.hexing-protection.com"
+    email = "info@tisech.com"
+    website = "https://www.tisech.com"
 
   [params.form]
     enabled = true
@@ -30,21 +30,19 @@ Whether you need a product quotation, a custom solution, or want to explore part
 
 ### 📍 Company Address
 
-**Shenzhen HeXing Protection Tech. Co., Ltd.**
+**TISEC TECH LIMITED**
 
-R. 820, Building A, Sanhuan Technology Building, No. 52, Tongren Road, Jiazitang Community, Fenghuang Sub-district, Guangming District, Shenzhen City, Guangdong Province, China
-
-Postal Code: 518107
+Room B, 15F, Kin Hing Industrial Building, 17-23 Shek Kin Street, Kwai Chung, NT, Hong Kong
 
 ### 📞 Contact Information
 
 - **Contact Person**: Victor Yang
 - **Phone / WeChat**: +86 13402060841
-- **Email**: info@hexing-protection.com
+- **Email**: info@tisech.com
 
 ### 🕐 Business Hours
 
-- Monday to Friday: 09:00 – 18:00 (Beijing Time, UTC+8)
+- Monday to Friday: 09:00 – 18:00 (Hong Kong Time, UTC+8)
 - Saturday: 09:00 – 12:00
 - Sunday and Public Holidays: Closed
 
@@ -54,7 +52,7 @@ You can also reach us through the following channels:
 
 - **WeChat**: Scan QR code or search by phone number
 - **WhatsApp**: +86 13402060841
-- **Email**: Send your detailed inquiry to info@hexing-protection.com
+- **Email**: Send your detailed inquiry to info@tisech.com
 
 ## Cooperation Process
 

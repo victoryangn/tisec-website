@@ -1,13 +1,13 @@
 ---
 title: "Products"
-description: "Shenzhen HeXing Protection - Professional supplier of bulletproof helmets, plates, shields, vests and body armor"
+description: "TISEC TECH - Professional supplier of bulletproof helmets, plates, shields, vests and body armor"
 date: 2026-01-01
 draft: false
 ---
 
 ## Product Categories
 
-HeXing Protection supplies a full range of military and police ballistic protection equipment:
+TISEC TECH supplies a full range of military and police ballistic protection equipment:
 
 ### 🪖 Bulletproof Helmets
 FAST, MICH2000, PASGT and other models. Made with aramid, PE and other advanced composite materials.

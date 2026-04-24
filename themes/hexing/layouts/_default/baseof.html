@@ -24,10 +24,14 @@
   {{- /* Fallback inline critical styles */ -}}
   <style>
     :root {
-      --primary: {{ .Site.Params.primaryColor | default "#1B5E20" }};
-      --olive: {{ .Site.Params.oliveColor | default "#558B2F" }};
-      --accent: {{ .Site.Params.accentColor | default "#D4A843" }};
-      --bg-light: #f5f5f0;
+      --primary: {{ .Site.Params.primaryColor | default "#0066CC" }};
+      --primary-dark: #004999;
+      --primary-light: #3399FF;
+      --olive: {{ .Site.Params.oliveColor | default "#1a1a2e" }};
+      --olive-light: #2d2d4a;
+      --accent: {{ .Site.Params.accentColor | default "#00A8FF" }};
+      --accent-light: #66CCFF;
+      --bg-light: #f5f8fa;
       --text-dark: #1a1a1a;
       --text-light: #ffffff;
       --text-muted: #666666;

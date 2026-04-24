@@ -3,7 +3,6 @@ title = "HX-CB01 战术作战靴"
 description = "全地形军用作战靴，采用头层牛皮与1000D尼龙组合面料，防滑耐磨、透气防水，适合丛林、沙漠、城市等多种作战环境"
 date = 2026-02-01
 draft = false
-featured_image = "/images/products/combat-boots.jpg"
 category = "服装鞋靴"
 tags = ["作战靴", "军靴", "战术靴", "服装鞋靴", "防滑"]
 price = "Contact for Price"
@@ -24,6 +23,8 @@ price = "Contact for Price"
     operating_temp = "-30°C 至 +50°C"
     certification = "CE EN ISO 20347、SBP认证"
     warranty = "1年"
+featured = true
+summary = "头层牛皮+1000D尼龙 | GORE-TEX防水透气 | 天然橡胶大底 | 38-47码全尺码"
 +++
 
 ## 产品概述

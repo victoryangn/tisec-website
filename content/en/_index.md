@@ -1,5 +1,5 @@
 +++
-title = "Shenzhen HeXing Protection Tech. Co., Ltd."
+title = "TISEC TECH LIMITED"
 description = "Professional military protective equipment supplier offering bulletproof gear, tactical clothing & footwear, tents & backpacks, night vision, military vehicles, and fabrics & textiles"
 date = 2026-01-01
 draft = false
@@ -22,9 +22,9 @@ draft = false
     clients_label = "Trusted Clients"
 +++
 
-## About HeXing Protection
+## About TISEC TECH
 
-Shenzhen HeXing Protection Tech. Co., Ltd. is a comprehensive enterprise specializing in the research, development, production, and sales of military protective equipment. Headquartered in Guangming District, Shenzhen, China, we leverage years of industry experience and a professional technical team to provide high-quality protective products and solutions for security forces worldwide.
+TISEC TECH LIMITED is a comprehensive enterprise specializing in the research, development, production, and sales of military protective equipment. Headquartered in Kwai Chung, NT, Hong Kong, we leverage years of industry experience and a professional technical team to provide high-quality protective products and solutions for security forces worldwide.
 
 ## Core Business Areas
 

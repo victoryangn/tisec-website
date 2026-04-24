@@ -1,7 +1,7 @@
-{{- $companyName := cond (eq .Lang "zh") (.Site.Params.companyZh | default "深圳市和兴防护科技有限公司") (.Site.Params.companyEn | default "Shenzhen HeXing Protection Tech. Co., Ltd.") -}}
-{{- $address := cond (eq .Lang "zh") (.Site.Params.addressZh | default "广东省深圳市") (.Site.Params.addressEn | default "Shenzhen, Guangdong, China") -}}
-{{- $email := .Site.Params.email | default "info@hexing-protection.com" -}}
-{{- $phone := .Site.Params.phone | default "+86-755-00000000" -}}
+{{- $companyName := cond (eq .Lang "zh") (.Site.Params.companyZh | default "泰世科技有限公司") (.Site.Params.companyEn | default "TISEC TECH LIMITED") -}}
+{{- $address := cond (eq .Lang "zh") (.Site.Params.addressZh | default "香港新界葵涌") (.Site.Params.addressEn | default "Kwai Chung, NT, Hong Kong") -}}
+{{- $email := .Site.Params.email | default "info@tisech.com" -}}
+{{- $phone := .Site.Params.phone | default "+86 13402060841" -}}
 {{- $year := now.Year -}}
 
 <footer style="background:var(--primary);color:#fff;margin-top:60px;">

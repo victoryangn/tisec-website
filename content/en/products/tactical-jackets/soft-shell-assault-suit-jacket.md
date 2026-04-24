@@ -16,6 +16,8 @@ specs: |
   Color: Dark khaki
 supplier: "fronter"
 draft: false
+featured: true
+summary: "3-layer composite soft shell | 270g/m² | 100% polyester | Dark khaki | Windproof & breathable"
 ---
 
 ## Soft Shell Assault Suit Jacket

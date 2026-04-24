@@ -22,7 +22,8 @@ specs: |
   Accessories: Shock absorption, head circumference adjustment, buffer system, etc.
   Insurance: Ping An Insurance 5M RMB
   Shelf Life: 8 years
-
+featured: true
+summary: "Classic PASGT design | Aramid/PE options | 540-600mm head circumference | GA2/GA3 rated | 8-year warranty"
 ---
 
 # PASGT-M88 Ballistic Helmet

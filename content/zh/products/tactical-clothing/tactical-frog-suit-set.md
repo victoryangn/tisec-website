@@ -18,6 +18,8 @@ specs: |
   Color: Black, Army Green, Wolf Brown
 supplier: "fronter"
 draft: false
+featured: true
+summary: "T65/C35棉混纺 | 面料230g/m² | 多色可选（黑/军绿/狼棕）| S-3XL全尺码"
 ---
 
 ## 战术蛙服套装

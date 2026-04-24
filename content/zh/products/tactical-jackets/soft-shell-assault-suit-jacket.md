@@ -16,6 +16,8 @@ specs: |
   Color: Dark khaki
 supplier: "fronter"
 draft: false
+featured: true
+summary: "三层复合软壳面料 | 270g/m² | 100%聚酯纤维 | 暗卡其色 | 防风透气"
 ---
 
 ## 软壳突击服外套

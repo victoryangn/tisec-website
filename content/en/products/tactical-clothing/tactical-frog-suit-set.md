@@ -18,6 +18,8 @@ specs: |
   Color: Black, Army Green, Wolf Brown
 supplier: "fronter"
 draft: false
+featured: true
+summary: "T65/C35 cotton blend | 230g/m² fabric | Multi-color (Black/OG/Wolf Brown) | S-3XL full sizing"
 ---
 
 ## Tactical Frog Suit Set

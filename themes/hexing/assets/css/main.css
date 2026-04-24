@@ -1,20 +1,20 @@
-/* ===== HEXING TACTICAL - Corporate Website ===== */
+/* ===== TISEC TECH - Corporate Website ===== */
 :root {
-  --primary: #1B5E20;
-  --primary-dark: #0D3B12;
-  --primary-light: #2E7D32;
-  --olive: #558B2F;
-  --olive-light: #7CB342;
-  --accent: #D4A843;
-  --accent-light: #E8C86A;
+  --primary: #0066CC;
+  --primary-dark: #004999;
+  --primary-light: #3399FF;
+  --olive: #1a1a2e;
+  --olive-light: #2d2d4a;
+  --accent: #00A8FF;
+  --accent-light: #66CCFF;
   --text: #1a1a1a;
   --text-light: #555;
   --bg: #ffffff;
-  --bg-light: #f8f9fa;
-  --bg-dark: #0D3B12;
-  --border: #e0e0e0;
-  --shadow: 0 2px 16px rgba(0,0,0,0.08);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+  --bg-light: #f5f8fa;
+  --bg-dark: #0a1628;
+  --border: #e0e8f0;
+  --shadow: 0 2px 16px rgba(0,40,100,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,40,100,0.12);
   --radius: 8px;
   --max-width: 1200px;
 }

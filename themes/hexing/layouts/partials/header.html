@@ -1,5 +1,5 @@
 {{- /* Determine company name based on language */ -}}
-{{- $companyName := cond (eq .Lang "zh") (.Site.Params.companyZh | default "深圳市和兴防护科技有限公司") (.Site.Params.companyEn | default "Shenzhen HeXing Protection Tech. Co., Ltd.") -}}
+{{- $companyName := cond (eq .Lang "zh") (.Site.Params.companyZh | default "泰世科技有限公司") (.Site.Params.companyEn | default "TISEC TECH LIMITED") -}}
 {{- $logo := .Site.Params.logo -}}
 {{- $isZh := eq .Lang "zh" -}}
 
@@ -10,12 +10,12 @@
       {{- if $logo -}}
         <img src="{{ $logo | relURL }}" alt="{{ $companyName }}" style="height:50px;width:auto;">
       {{- else -}}
-        <div style="width:50px;height:50px;background:var(--primary);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:bold;font-size:20px;">HX</div>
+        <div style="width:50px;height:50px;background:var(--primary);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:bold;font-size:20px;">TISEC</div>
       {{- end -}}
       <div>
         <div style="font-size:18px;font-weight:700;line-height:1.2;color:var(--primary);">{{ $companyName }}</div>
         {{- if $isZh -}}
-          <div style="font-size:11px;color:var(--text-muted);letter-spacing:1px;">HeXing Protection Technology</div>
+          <div style="font-size:11px;color:var(--text-muted);letter-spacing:1px;">TISEC TECH LIMITED</div>
         {{- else -}}
           <div style="font-size:11px;color:var(--text-muted);letter-spacing:1px;">Military & Tactical Equipment Exporter</div>
         {{- end -}}
