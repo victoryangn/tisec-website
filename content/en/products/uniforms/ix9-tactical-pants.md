@@ -1,7 +1,7 @@
 ---
 title: "IX9 Tactical Pants"
 slug: "ix9-tactical-pants"
-description: "IX9 Tactical Pants - Professional quality from Shenzhen HeXing Protection Tech."
+description: "IX9 Tactical Pants - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Military & Police Uniforms"
 images:
   - "/images/products/fronter/ix9-tactical-pants-1.jpg"

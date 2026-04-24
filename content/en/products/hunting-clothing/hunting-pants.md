@@ -1,7 +1,7 @@
 ---
 title: "Hunting Pants"
 slug: "hunting-pants"
-description: "Hunting Pants - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Hunting Pants - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Hunting Clothing"
 images:
   - "/images/products/fronter/hunting-pants-1.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Hooded Hard Shell Jacket"
 slug: "hooded-hard-shell-jacket"
-description: "Hooded Hard Shell Jacket - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Hooded Hard Shell Jacket - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Tactical Jackets"
 images:
   - "/images/products/fronter/hooded-hard-shell-jacket-1.jpg"

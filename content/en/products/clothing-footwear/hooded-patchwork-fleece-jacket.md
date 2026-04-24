@@ -1,7 +1,7 @@
 ---
 title: "Hooded Patchwork Fleece Jacket"
 slug: "hooded-patchwork-fleece-jacket"
-description: "Hooded Patchwork Fleece Jacket - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Hooded Patchwork Fleece Jacket - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Clothing & Footwear"
 images:
   - "/images/products/fronter/hooded-patchwork-fleece-jacket-1.jpg"

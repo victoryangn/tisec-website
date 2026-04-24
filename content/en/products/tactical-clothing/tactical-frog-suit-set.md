@@ -1,7 +1,7 @@
 ---
 title: "Tactical Frog Suit Set"
 slug: "tactical-frog-suit-set"
-description: "Tactical Frog Suit Set - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Tactical Frog Suit Set - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Tactical Clothing"
 images:
   - "/images/products/fronter/tactical-frog-suit-set-1.jpg"

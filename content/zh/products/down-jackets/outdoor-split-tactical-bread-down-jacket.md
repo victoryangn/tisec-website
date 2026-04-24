@@ -1,7 +1,7 @@
 ---
 title: "户外分体战术面包羽绒服"
 slug: "outdoor-split-tactical-bread-down-jacket"
-description: "户外分体战术面包羽绒服 - 深圳市和兴防护科技有限公司专业供应。"
+description: "户外分体战术面包羽绒服 - 泰世科技有限公司专业供应。"
 category: "羽绒服"
 images:
   - "/images/products/fronter/outdoor-split-tactical-bread-down-jacket-1.jpg"

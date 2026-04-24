@@ -1,7 +1,7 @@
 ---
 title: "Hooded Outdoor Hard Shell Assault Suit"
 slug: "hooded-outdoor-hard-shell-assault-suit"
-description: "Hooded Outdoor Hard Shell Assault Suit - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Hooded Outdoor Hard Shell Assault Suit - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Tactical Jackets"
 images:
   - "/images/products/fronter/hooded-outdoor-hard-shell-assault-suit-1.jpg"

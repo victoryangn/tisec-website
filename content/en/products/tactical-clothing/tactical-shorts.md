@@ -1,7 +1,7 @@
 ---
 title: "Tactical Shorts"
 slug: "tactical-shorts"
-description: "Tactical Shorts - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Tactical Shorts - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Tactical Clothing"
 images:
   - "/images/products/fronter/tactical-shorts-1.jpg"

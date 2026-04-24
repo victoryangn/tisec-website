@@ -1,7 +1,7 @@
 ---
 title: "G3迷彩蛙服"
 slug: "g3-camouflage-frog-suit"
-description: "G3迷彩蛙服 - 深圳市和兴防护科技有限公司专业供应。"
+description: "G3迷彩蛙服 - 泰世科技有限公司专业供应。"
 category: "战术服装"
 images:
   - "/images/products/fronter/g3-camouflage-frog-suit-1.jpg"

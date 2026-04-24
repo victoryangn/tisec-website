@@ -1,7 +1,7 @@
 ---
 title: "陆军作战服（蟒纹迷彩系列）"
 slug: "army-combat-uniform-python-pattern-series"
-description: "陆军作战服（蟒纹迷彩系列） - 深圳市和兴防护科技有限公司专业供应。"
+description: "陆军作战服（蟒纹迷彩系列） - 泰世科技有限公司专业供应。"
 category: "军警制服"
 images:
   - "/images/products/fronter/army-combat-uniform-python-pattern-series-1.jpg"

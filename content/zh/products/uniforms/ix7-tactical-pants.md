@@ -1,7 +1,7 @@
 ---
 title: "IX7战术裤"
 slug: "ix7-tactical-pants"
-description: "IX7战术裤 - 深圳市和兴防护科技有限公司专业供应。"
+description: "IX7战术裤 - 泰世科技有限公司专业供应。"
 category: "军警制服"
 images:
   - "/images/products/fronter/ix7-tactical-pants-1.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Army Combat Uniform (Python Pattern Series)"
 slug: "army-combat-uniform-python-pattern-series"
-description: "Army Combat Uniform (Python Pattern Series) - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Army Combat Uniform (Python Pattern Series) - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Military & Police Uniforms"
 images:
   - "/images/products/fronter/army-combat-uniform-python-pattern-series-1.jpg"

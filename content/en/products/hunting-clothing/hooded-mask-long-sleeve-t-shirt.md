@@ -1,7 +1,7 @@
 ---
 title: "Hooded Mask Long Sleeve T-shirt"
 slug: "hooded-mask-long-sleeve-t-shirt"
-description: "Hooded Mask Long Sleeve T-shirt - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Hooded Mask Long Sleeve T-shirt - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Hunting Clothing"
 images:
   - "/images/products/fronter/hooded-mask-long-sleeve-t-shirt-1.jpg"

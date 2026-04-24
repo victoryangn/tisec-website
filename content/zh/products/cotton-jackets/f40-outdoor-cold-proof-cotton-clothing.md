@@ -1,7 +1,7 @@
 ---
 title: "F4.0户外防寒棉衣"
 slug: "f40-outdoor-cold-proof-cotton-clothing"
-description: "F4.0户外防寒棉衣 - 深圳市和兴防护科技有限公司专业供应。"
+description: "F4.0户外防寒棉衣 - 泰世科技有限公司专业供应。"
 category: "棉服"
 images:
   - "/images/products/fronter/f40-outdoor-cold-proof-cotton-clothing-1.jpg"

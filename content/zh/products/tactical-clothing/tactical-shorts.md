@@ -1,7 +1,7 @@
 ---
 title: "战术短裤"
 slug: "tactical-shorts"
-description: "战术短裤 - 深圳市和兴防护科技有限公司专业供应。"
+description: "战术短裤 - 泰世科技有限公司专业供应。"
 category: "战术服装"
 images:
   - "/images/products/fronter/tactical-shorts-1.jpg"

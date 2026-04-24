@@ -1,7 +1,7 @@
 ---
 title: "连帽户外硬壳突击服"
 slug: "hooded-outdoor-hard-shell-assault-suit"
-description: "连帽户外硬壳突击服 - 深圳市和兴防护科技有限公司专业供应。"
+description: "连帽户外硬壳突击服 - 泰世科技有限公司专业供应。"
 category: "冲锋衣"
 images:
   - "/images/products/fronter/hooded-outdoor-hard-shell-assault-suit-1.jpg"

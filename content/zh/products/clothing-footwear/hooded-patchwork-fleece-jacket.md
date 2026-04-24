@@ -1,7 +1,7 @@
 ---
 title: "连帽拼接抓绒衣"
 slug: "hooded-patchwork-fleece-jacket"
-description: "连帽拼接抓绒衣 - 深圳市和兴防护科技有限公司专业供应。"
+description: "连帽拼接抓绒衣 - 泰世科技有限公司专业供应。"
 category: "服装鞋靴"
 images:
   - "/images/products/fronter/hooded-patchwork-fleece-jacket-1.jpg"

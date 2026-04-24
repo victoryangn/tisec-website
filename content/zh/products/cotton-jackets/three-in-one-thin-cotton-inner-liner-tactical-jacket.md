@@ -1,7 +1,7 @@
 ---
 title: "三合一薄棉内胆战术冲锋衣"
 slug: "three-in-one-thin-cotton-inner-liner-tactical-jacket"
-description: "三合一薄棉内胆战术冲锋衣 - 深圳市和兴防护科技有限公司专业供应。"
+description: "三合一薄棉内胆战术冲锋衣 - 泰世科技有限公司专业供应。"
 category: "棉服"
 images:
   - "/images/products/fronter/three-in-one-thin-cotton-inner-liner-tactical-jacket-1.jpg"

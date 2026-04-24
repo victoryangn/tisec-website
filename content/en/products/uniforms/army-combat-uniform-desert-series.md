@@ -1,7 +1,7 @@
 ---
 title: "Army Combat Uniform (Desert Series)"
 slug: "army-combat-uniform-desert-series"
-description: "Army Combat Uniform (Desert Series) - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Army Combat Uniform (Desert Series) - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Military & Police Uniforms"
 images:
   - "/images/products/fronter/army-combat-uniform-desert-series-1.jpg"

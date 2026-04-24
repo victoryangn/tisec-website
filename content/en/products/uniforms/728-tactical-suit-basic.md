@@ -1,7 +1,7 @@
 ---
 title: "728战术套装"
 slug: "728-tactical-suit-basic"
-description: "728战术套装 - Professional quality from Shenzhen HeXing Protection Tech."
+description: "728战术套装 - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Military & Police Uniforms"
 images:
   - "/images/products/fronter/728-tactical-suit-basic-1.jpg"

@@ -1,6 +1,6 @@
 {{- define "main" -}}
 {{- $isZh := eq .Lang "zh" -}}
-{{- $email := .Site.Params.email | default "info@hexing-protection.com" -}}
+{{- $email := .Site.Params.email | default "victoryangn@gmail.com" -}}
 {{- $phone := .Site.Params.phone | default "+86-755-00000000" -}}
 {{- $address := cond $isZh (.Site.Params.addressZh | default "广东省深圳市") (.Site.Params.addressEn | default "Shenzhen, Guangdong, China") -}}
 

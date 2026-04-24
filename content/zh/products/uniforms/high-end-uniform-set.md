@@ -1,7 +1,7 @@
 ---
 title: "高端制服套装"
 slug: "high-end-uniform-set"
-description: "高端制服套装 - 深圳市和兴防护科技有限公司专业供应。"
+description: "高端制服套装 - 泰世科技有限公司专业供应。"
 category: "军警制服"
 images:
   - "/images/products/fronter/high-end-uniform-set-1.jpg"

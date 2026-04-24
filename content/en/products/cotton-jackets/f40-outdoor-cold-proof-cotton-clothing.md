@@ -1,7 +1,7 @@
 ---
 title: "F4.0 Outdoor Cold proof Cotton Clothing"
 slug: "f40-outdoor-cold-proof-cotton-clothing"
-description: "F4.0 Outdoor Cold proof Cotton Clothing - Professional quality from Shenzhen HeXing Protection Tech."
+description: "F4.0 Outdoor Cold proof Cotton Clothing - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Cotton Jackets"
 images:
   - "/images/products/fronter/f40-outdoor-cold-proof-cotton-clothing-1.jpg"

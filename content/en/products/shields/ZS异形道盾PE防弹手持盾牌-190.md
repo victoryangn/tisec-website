@@ -1,7 +1,7 @@
 ---
 
 title: "ZS Shaped PE Handheld Ballistic Shield"
-description: "ZS Shaped PE Handheld Ballistic Shield - Shenzhen HeXing Protection Tech. Co., Ltd."
+description: "ZS Shaped PE Handheld Ballistic Shield - TISEC TECH LIMITED"
 date: 2026-04-18
 draft: false
 category: "shields"
@@ -27,7 +27,7 @@ specs: |
 
 # ZS Shaped PE Handheld Ballistic Shield
 
-ZS Shaped PE Handheld Ballistic Shield supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
+ZS Shaped PE Handheld Ballistic Shield supplied by TISEC TECH LIMITED Professional military and police protection equipment with customization available.
 
 ## Specifications
 

@@ -1,7 +1,7 @@
 ---
 title: "Outdoor Split Tactical Bread Down Jacket"
 slug: "outdoor-split-tactical-bread-down-jacket"
-description: "Outdoor Split Tactical Bread Down Jacket - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Outdoor Split Tactical Bread Down Jacket - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Down Jackets"
 images:
   - "/images/products/fronter/outdoor-split-tactical-bread-down-jacket-1.jpg"

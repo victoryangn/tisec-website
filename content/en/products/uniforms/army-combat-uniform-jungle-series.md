@@ -1,7 +1,7 @@
 ---
 title: "Army Combat Uniform (Jungle Series)"
 slug: "army-combat-uniform-jungle-series"
-description: "Army Combat Uniform (Jungle Series) - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Army Combat Uniform (Jungle Series) - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Military & Police Uniforms"
 images:
   - "/images/products/fronter/army-combat-uniform-jungle-series-1.jpg"

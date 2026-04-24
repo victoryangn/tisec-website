@@ -24,7 +24,7 @@ price = "Contact for Price"
 
 ## Product Overview
 
-The HX-BV01 Advanced Bulletproof Vest is a next-generation personal protection system developed by Shenzhen HeXing Protection Tech. Co., Ltd. Featuring UHMWPE soft ballistic panels combined with removable ceramic composite plates, this vest delivers exceptional ballistic protection while maintaining a lightweight, comfortable profile.
+The HX-BV01 Advanced Bulletproof Vest is a next-generation personal protection system developed by TISEC TECH LIMITED Featuring UHMWPE soft ballistic panels combined with removable ceramic composite plates, this vest delivers exceptional ballistic protection while maintaining a lightweight, comfortable profile.
 
 Designed and tested in strict accordance with NIJ 0101.06 and Chinese GA 141-2010 standards, the HX-BV01 provides reliable protection for military, law enforcement, and security personnel in a wide range of operational scenarios.
 

@@ -1,7 +1,7 @@
 ---
 title: "战术蛙服套装"
 slug: "tactical-frog-suit-set"
-description: "战术蛙服套装 - 深圳市和兴防护科技有限公司专业供应。"
+description: "战术蛙服套装 - 泰世科技有限公司专业供应。"
 category: "战术服装"
 images:
   - "/images/products/fronter/tactical-frog-suit-set-1.jpg"

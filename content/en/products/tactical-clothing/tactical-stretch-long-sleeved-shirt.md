@@ -1,7 +1,7 @@
 ---
 title: "Tactical Stretch Long Sleeved Shirt"
 slug: "tactical-stretch-long-sleeved-shirt"
-description: "Tactical Stretch Long Sleeved Shirt - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Tactical Stretch Long Sleeved Shirt - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Tactical Clothing"
 images:
   - "/images/products/fronter/tactical-stretch-long-sleeved-shirt-1.jpg"

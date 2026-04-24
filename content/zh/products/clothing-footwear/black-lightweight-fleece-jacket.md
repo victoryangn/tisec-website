@@ -1,7 +1,7 @@
 ---
 title: "黑色轻量抓绒夹克"
 slug: "black-lightweight-fleece-jacket"
-description: "黑色轻量抓绒夹克 - 深圳市和兴防护科技有限公司专业供应。"
+description: "黑色轻量抓绒夹克 - 泰世科技有限公司专业供应。"
 category: "服装鞋靴"
 images:
   - "/images/products/fronter/black-lightweight-fleece-jacket-1.jpg"

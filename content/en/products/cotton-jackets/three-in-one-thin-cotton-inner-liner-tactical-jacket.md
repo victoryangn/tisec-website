@@ -1,7 +1,7 @@
 ---
 title: "Three In One Thin Cotton Inner Liner Tactical Jacket"
 slug: "three-in-one-thin-cotton-inner-liner-tactical-jacket"
-description: "Three In One Thin Cotton Inner Liner Tactical Jacket - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Three In One Thin Cotton Inner Liner Tactical Jacket - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Cotton Jackets"
 images:
   - "/images/products/fronter/three-in-one-thin-cotton-inner-liner-tactical-jacket-1.jpg"

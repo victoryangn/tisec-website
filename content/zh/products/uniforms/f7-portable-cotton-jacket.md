@@ -1,7 +1,7 @@
 ---
 title: "F7便携棉衣"
 slug: "f7-portable-cotton-jacket"
-description: "F7便携棉衣 - 深圳市和兴防护科技有限公司专业供应。"
+description: "F7便携棉衣 - 泰世科技有限公司专业供应。"
 category: "军警制服"
 images:
   - "/images/products/fronter/f7-portable-cotton-jacket-1.jpg"

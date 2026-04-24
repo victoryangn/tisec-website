@@ -1,7 +1,7 @@
 ---
 title: "G3 Camouflage Frog Suit"
 slug: "g3-camouflage-frog-suit"
-description: "G3 Camouflage Frog Suit - Professional quality from Shenzhen HeXing Protection Tech."
+description: "G3 Camouflage Frog Suit - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Tactical Clothing"
 images:
   - "/images/products/fronter/g3-camouflage-frog-suit-1.jpg"

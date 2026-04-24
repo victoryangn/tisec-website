@@ -1,7 +1,7 @@
 ---
 
 title: "T-Shirt Style Concealable Body Armor"
-description: "T-Shirt Style Concealable Body Armor - Shenzhen HeXing Protection Tech. Co., Ltd."
+description: "T-Shirt Style Concealable Body Armor - TISEC TECH LIMITED"
 date: 2026-04-18
 draft: false
 category: "vests"
@@ -24,7 +24,7 @@ specs: |
 
 # T-Shirt Style Concealable Body Armor
 
-T-Shirt Style Concealable Body Armor supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
+T-Shirt Style Concealable Body Armor supplied by TISEC TECH LIMITED Professional military and police protection equipment with customization available.
 
 ## Specifications
 

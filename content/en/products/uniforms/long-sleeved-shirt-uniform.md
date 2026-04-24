@@ -1,7 +1,7 @@
 ---
 title: "Long Sleeved Shirt Uniform"
 slug: "long-sleeved-shirt-uniform"
-description: "Long Sleeved Shirt Uniform - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Long Sleeved Shirt Uniform - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Military & Police Uniforms"
 images:
   - "/images/products/fronter/long-sleeved-shirt-uniform-1.jpg"

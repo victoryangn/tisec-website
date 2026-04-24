@@ -1,7 +1,7 @@
 ---
 title: "硬壳突击服外套"
 slug: "hard-shell-assault-suit-jacket"
-description: "硬壳突击服外套 - 深圳市和兴防护科技有限公司专业供应。"
+description: "硬壳突击服外套 - 泰世科技有限公司专业供应。"
 category: "冲锋衣"
 images:
   - "/images/products/fronter/hard-shell-assault-suit-jacket-1.jpg"

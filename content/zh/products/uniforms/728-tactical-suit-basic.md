@@ -1,7 +1,7 @@
 ---
 title: "728战术套装"
 slug: "728-tactical-suit-basic"
-description: "728战术套装 - 深圳市和兴防护科技有限公司专业供应。"
+description: "728战术套装 - 泰世科技有限公司专业供应。"
 category: "军警制服"
 images:
   - "/images/products/fronter/728-tactical-suit-basic-1.jpg"

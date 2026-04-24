@@ -1,7 +1,7 @@
 ---
 
 title: "FAST Ballistic Helmet"
-description: "FAST Ballistic Helmet - Shenzhen HeXing Protection Tech. Co., Ltd."
+description: "FAST Ballistic Helmet - TISEC TECH LIMITED"
 date: 2026-04-18
 draft: false
 category: "helmets"
@@ -29,7 +29,7 @@ specs: |
 
 # FAST Ballistic Helmet
 
-FAST Ballistic Helmet supplied by Shenzhen HeXing Protection Tech. Co., Ltd. Professional military and police protection equipment with customization available.
+FAST Ballistic Helmet supplied by TISEC TECH LIMITED Professional military and police protection equipment with customization available.
 
 ## Specifications
 

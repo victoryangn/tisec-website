@@ -1,7 +1,7 @@
 ---
 title: "High End Uniform Set"
 slug: "high-end-uniform-set"
-description: "High End Uniform Set - Professional quality from Shenzhen HeXing Protection Tech."
+description: "High End Uniform Set - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Military & Police Uniforms"
 images:
   - "/images/products/fronter/high-end-uniform-set-1.jpg"

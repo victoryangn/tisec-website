@@ -1,7 +1,7 @@
 ---
 title: "连帽硬壳外套"
 slug: "hooded-hard-shell-jacket"
-description: "连帽硬壳外套 - 深圳市和兴防护科技有限公司专业供应。"
+description: "连帽硬壳外套 - 泰世科技有限公司专业供应。"
 category: "冲锋衣"
 images:
   - "/images/products/fronter/hooded-hard-shell-jacket-1.jpg"

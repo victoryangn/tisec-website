@@ -1,7 +1,7 @@
 ---
 title: "728 Tactical Suit"
 slug: "728-tactical-suit"
-description: "728 Tactical Suit - Professional quality from Shenzhen HeXing Protection Tech."
+description: "728 Tactical Suit - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Tactical Clothing"
 images:
   - "/images/products/fronter/728-tactical-suit-1.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Quilted Cotton Jacket"
 slug: "quilted-cotton-jacket"
-description: "Quilted Cotton Jacket - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Quilted Cotton Jacket - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Hunting Clothing"
 images:
   - "/images/products/fronter/quilted-cotton-jacket-1.jpg"

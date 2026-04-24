@@ -1,7 +1,7 @@
 ---
 title: "Hard Shell Assault Suit Jacket"
 slug: "hard-shell-assault-suit-jacket"
-description: "Hard Shell Assault Suit Jacket - Professional quality from Shenzhen HeXing Protection Tech."
+description: "Hard Shell Assault Suit Jacket - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Tactical Jackets"
 images:
   - "/images/products/fronter/hard-shell-assault-suit-jacket-1.jpg"

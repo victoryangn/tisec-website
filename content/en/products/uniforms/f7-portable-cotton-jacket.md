@@ -1,7 +1,7 @@
 ---
 title: "F7 portable cotton jacket"
 slug: "f7-portable-cotton-jacket"
-description: "F7 portable cotton jacket - Professional quality from Shenzhen HeXing Protection Tech."
+description: "F7 portable cotton jacket - Professional quality from Shenzhen TISEC TECH Tech."
 category: "Military & Police Uniforms"
 images:
   - "/images/products/fronter/f7-portable-cotton-jacket-1.jpg"
